@@ -4,8 +4,11 @@ import {Card, Container, Image, Row, Col, Table} from "react-bootstrap";
 import './Experience.css'
 
 import profil from './static/profil.jpg';
-import greenfox from './static/logos/greenfoxacademy.png'
-import soter from './static/logos/soter-line.jpg'
+import greenfox from './static/logos/greenfoxacademy.png';
+import soter from './static/logos/soter-line.jpg';
+import penta from './static/logos/pentaunio.jpg';
+import milton from './static/logos/miltonfriedman.png';
+import eotvos from './static/logos/elte.jpg';
 
 function Experience() {
     return (
@@ -18,11 +21,11 @@ function Experience() {
                         </Col>
                         <Col>
                             <div id="introduction">
-                            <h3>Atanáz Tálos</h3>
-                            <p>I like to work in team, see how some exciting,
-                            awesome thing is building from small parts.
-                            There are always new challanges, they keep my mind fresh,
-                            I always can learn something new.</p>
+                                <h3>Atanáz Tálos</h3>
+                                <p>I like to work in team, see how some exciting,
+                                    awesome thing is building from small parts.
+                                    There are always new challanges, they keep my mind fresh,
+                                    I always can learn something new.</p>
                             </div>
                         </Col>
                     </Row>
@@ -51,8 +54,8 @@ function Experience() {
                 <Container>
                     <Row>
                         <Col>
-                            <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src={greenfox} />
+                            <Card style={{width: '18rem'}}>
+                                <Card.Img variant="top" src={greenfox}/>
                                 <Card.Body>
                                     <Card.Title>Green Fox Academy</Card.Title>
                                     <Card.Text>
@@ -68,8 +71,8 @@ function Experience() {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src={soter} />
+                            <Card style={{width: '18rem'}}>
+                                <Card.Img variant="top" src={soter}/>
                                 <Card.Body>
                                     <Card.Title>Soter-Line</Card.Title>
                                     <Card.Text>
@@ -79,6 +82,41 @@ function Experience() {
                                             <li>Adobe Illustrator</li>
                                             <li>Adobe InDesign</li>
                                         </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card style={{width: '18rem'}}>
+                                <Card.Img variant="top" src={penta}/>
+                                <Card.Body>
+                                    <Card.Title>Penta Unió</Card.Title>
+                                    <Card.Text>
+                                        <p id="subtitle">2015, Chartered certified accountant for business</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Card style={{width: '18rem'}}>
+                                <Card.Img variant="top" src={milton}/>
+                                <Card.Body>
+                                    <Card.Title>Milton Friedman University</Card.Title>
+                                    <Card.Text>
+                                        <p id="subtitle">2010-2015, Accounting and Finance BA</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card style={{width: '18rem'}}>
+                                <Card.Img variant="top" src={eotvos}/>
+                                <Card.Body>
+                                    <Card.Title>Eötvös Loránd University</Card.Title>
+                                    <Card.Text>
+                                        <p id="subtitle">2009-2013, Hungarian Language and Literature BA</p>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
