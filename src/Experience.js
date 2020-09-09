@@ -52,7 +52,7 @@ function Experience() {
             <div className="cards">
                 <h1>Education</h1>
                 <Container>
-                    <Row>
+                    <Row style={{'margin-bottom': '50px'}}>
                         <Col>
                             <Card style={{width: '18rem'}}>
                                 <Card.Img variant="top" src={greenfox}/>
