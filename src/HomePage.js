@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './HomePage.scss';
+import './HomePage.css'
 
 import {Button, Jumbotron} from "react-bootstrap";
 
@@ -10,7 +10,7 @@ function HomePage() {
             <h1>Hello, my name is Atanáz Tálos, welcome to my resume website!</h1>
             <p>I am a junior full-stack developer, using frameworks React, Express and Spring.</p>
             <p>
-                <Button>See more</Button>
+                <Button href="/experience" variant="dark">See more</Button>
             </p>
         </Jumbotron>
     );

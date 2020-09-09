@@ -1,0 +1,10 @@
+.experience p {
+    color: white;
+    text-align: right;
+    line-height: 80%;
+    margin-right: 10%;
+}
+
+.experience Table {
+    margin-top: 40px;
+}
