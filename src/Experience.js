@@ -17,10 +17,13 @@ function Experience() {
                             <Image src={profil} rounded/>
                         </Col>
                         <Col>
-                            <p>I like to work in team, see how some exciting,</p>
-                            <p>awesome thing is building from small parts.</p>
-                            <p>There are always new challanges, they keep my mind fresh,</p>
-                            <p>I always can learn something new.</p>
+                            <div id="introduction">
+                            <h3>Atanáz Tálos</h3>
+                            <p>I like to work in team, see how some exciting,
+                            awesome thing is building from small parts.
+                            There are always new challanges, they keep my mind fresh,
+                            I always can learn something new.</p>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

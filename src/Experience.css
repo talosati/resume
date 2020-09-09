@@ -1,13 +1,14 @@
 .experience-header img {
-    width: 300px;
-    padding: 10px;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
 }
 
-.experience-header p {
+.experience-header #introduction {
     color: white;
     text-align: right;
-    line-height: 80%;
-    margin-right: 10%;
+    margin: auto;
+    padding: 40px 10px;
 }
 
 .experience-header Table {
