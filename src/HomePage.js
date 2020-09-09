@@ -1,12 +1,18 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './HomePage.scss';
+
+import {Button, Jumbotron} from "react-bootstrap";
 
 function HomePage() {
     return (
-        <div className="Home">
-            <header className="Home-header">
-                <p>This is the home page</p>
-            </header>
-        </div>
+        <Jumbotron>
+            <h1>Hello, my name is Atanáz Tálos, welcome to my resume website!</h1>
+            <p>I am a junior full-stack developer, using frameworks React, Express and Spring.</p>
+            <p>
+                <Button>See more</Button>
+            </p>
+        </Jumbotron>
     );
 }
 
