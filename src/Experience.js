@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {ProgressBar, Container, Image, Row, Col, Table} from 'react-bootstrap';
+import {ProgressBar, Container, Image, Row, Col, Table, Button} from 'react-bootstrap';
 import './Experience.css'
 
 import profil from './static/profil.jpg';
@@ -210,6 +210,9 @@ function Experience() {
                         </Col>
                     </Row>
                 </Container>
+            </div>
+            <div id="bottom">
+                <Button href="#top" variant="dark">To top</Button>
             </div>
         </>
     );
