@@ -1,15 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomePage.css'
-import {Button, Col, Container, Jumbotron, Row} from "react-bootstrap";
+import {Button, Col, Container, Row} from "react-bootstrap";
 
 function HomePage() {
     return (
         <>
             <div className="home-header">
                 <h1>Hello, my name is Atanáz Tálos, welcome to my resume website!</h1>
-                <p>I am a junior full-stack developer,</p>
-                <p>using frameworks React, Express.js and Spring.</p>
+                <p>I am a junior full-stack developer, using frameworks React, Express.js and Spring.</p>
                 <p><Button href="/resume" variant="dark">See more</Button></p>
             </div>
             <div className="other-skills">
