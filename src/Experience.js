@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {ProgressBar, Container, Image, Row, Col, Table} from "react-bootstrap";
+import {ProgressBar, Container, Image, Row, Col, Table} from 'react-bootstrap';
 import './Experience.css'
 
 import profil from './static/profil.jpg';
@@ -13,11 +13,13 @@ import varady from './static/logos/varady.png';
 import biokom from './static/logos/biokom.png';
 import corrman from './static/logos/corrman.png';
 import darabanth from './static/logos/darabanth.png';
+import mensa from './static/logos/mensa_logo.svg';
+import tura from './static/logos/mtsz.jpg';
 
 function Experience() {
     return (
         <>
-            <div className="experience-header">
+            <div className="experience-header" id="top">
                 <Container>
                     <Row>
                         <Col>
@@ -185,6 +187,29 @@ function Experience() {
                 <ProgressBar variant="info" now={90} label="reading" />
                 <ProgressBar variant="warning" now={50} label="listening" />
                 <ProgressBar variant="danger" now={70} label="speaking" />
+            </div>
+            <div className="cards">
+                <h1>Hobby</h1>
+                <Container>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={mensa}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Mensa HungarIQa</h4>
+                            <p id="subtitle">2019-, member</p>
+                        </Col>
+                    </Row>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={tura}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Hungarian Hikers' Association</h4>
+                            <p id="subtitle">2016, Map reading & Navigation Course</p>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </>
     );

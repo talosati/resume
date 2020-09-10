@@ -15,7 +15,7 @@
 }
 
 .cards {
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .cards img {
@@ -47,8 +47,7 @@
 }
 
 .languages h5 {
-    padding-top: 30px;
-    padding-bottom: 0px;
+    padding-top: 20px;
 }
 
 .languages #subtitle {
