@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card, Container, Image, Row, Col, Table} from "react-bootstrap";
+import {Container, Image, Row, Col, Table} from "react-bootstrap";
 import './Experience.css'
 
 import profil from './static/profil.jpg';
@@ -52,80 +52,84 @@ function Experience() {
             <div className="cards">
                 <h1>Education</h1>
                 <Container>
-                    <Row style={{'margin-bottom': '50px'}}>
-                        <Col>
-                            <Card style={{width: '18rem'}}>
-                                <Card.Img variant="top" src={greenfox}/>
-                                <Card.Body>
-                                    <Card.Title>Green Fox Academy</Card.Title>
-                                    <Card.Text>
-                                        <p id="subtitle">2020, Software Engineering</p>
-                                        <ul>
-                                            <li>Java, Spring, Thymeleaf, Bootstrap</li>
-                                            <li>JavaScript, Express, React, Redux, Axios</li>
-                                            <li>JSX, HTML, CSS, Sass</li>
-                                            <li>MySQL, Sequelize, Docker</li>
-                                        </ul>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={greenfox}/>
                         </Col>
-                        <Col>
-                            <Card style={{width: '18rem'}}>
-                                <Card.Img variant="top" src={soter}/>
-                                <Card.Body>
-                                    <Card.Title>Soter-Line</Card.Title>
-                                    <Card.Text>
-                                        <p id="subtitle">2017-2019, Graphic Designer</p>
-                                        <ul>
-                                            <li>Adobe Photoshop</li>
-                                            <li>Adobe Illustrator</li>
-                                            <li>Adobe InDesign</li>
-                                        </ul>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col>
-                            <Card style={{width: '18rem'}}>
-                                <Card.Img variant="top" src={penta}/>
-                                <Card.Body>
-                                    <Card.Title>Penta Unió</Card.Title>
-                                    <Card.Text>
-                                        <p id="subtitle">2015, Chartered certified accountant for business</p>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                        <Col md={9}>
+                            <h4>Green Fox Academy</h4>
+                            <p id="subtitle">2020, Software Engineering</p>
+                            <ul>
+                                <li>Java, Spring, Thymeleaf, Bootstrap</li>
+                                <li>JavaScript, Express, React, Redux, Axios</li>
+                                <li>JSX, HTML, CSS, Sass</li>
+                                <li>MySQL, Sequelize, Docker</li>
+                            </ul>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col>
-                            <Card style={{width: '18rem'}}>
-                                <Card.Img variant="top" src={milton}/>
-                                <Card.Body>
-                                    <Card.Title>Milton Friedman University</Card.Title>
-                                    <Card.Text>
-                                        <p id="subtitle">2010-2015, Accounting and Finance BA</p>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={soter}/>
                         </Col>
-                        <Col>
-                            <Card style={{width: '18rem'}}>
-                                <Card.Img variant="top" src={eotvos}/>
-                                <Card.Body>
-                                    <Card.Title>Eötvös Loránd University</Card.Title>
-                                    <Card.Text>
-                                        <p id="subtitle">2009-2013, Hungarian Language and Literature BA</p>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                        <Col md={9}>
+                            <h4>Soter-Line Education Centrum</h4>
+                            <p id="subtitle">2017-2019, Graphic Designer</p>
+                            <ul>
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe Illustrator</li>
+                                <li>Adobe InDesign</li>
+                            </ul>
+                        </Col>
+                    </Row>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={penta}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Penta Unió Education Centrum</h4>
+                            <p id="subtitle">2015, Chartered certified accountant for business</p>
+                        </Col>
+                    </Row>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={milton}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Milton Friedman University</h4>
+                            <p id="subtitle">2010-2015, Accounting and Finance BA</p>
+                        </Col>
+                    </Row>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={eotvos}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Eötvös Loránd University</h4>
+                            <p id="subtitle">2009-2013, Hungarian Language and Literature BA</p>
+                        </Col>
+                    </Row>
+                </Container>
+                <h1>Experience</h1>
+                <Container>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={greenfox}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Green Fox Academy</h4>
+                            <p id="subtitle">2020, Software Engineering</p>
+                            <ul>
+                                <li>Java, Spring, Thymeleaf, Bootstrap</li>
+                                <li>JavaScript, Express, React, Redux, Axios</li>
+                                <li>JSX, HTML, CSS, Sass</li>
+                                <li>MySQL, Sequelize, Docker</li>
+                            </ul>
                         </Col>
                     </Row>
                 </Container>
             </div>
         </>
-    );
+);
 }
 
 export default Experience;
