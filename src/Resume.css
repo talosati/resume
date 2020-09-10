@@ -58,6 +58,12 @@
     padding: 20px 45%;
 }
 
+@media print {
+    #bottom {
+        display: none;
+    }
+}
+
 
 
 

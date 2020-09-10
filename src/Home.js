@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import {Nav, Navbar} from "react-bootstrap";
 import HomePage from "./HomePage";
-import Experience from "./Experience";
+import Resume from "./Resume";
 import About from "./About";
 
 class Home extends Component {
@@ -18,7 +18,7 @@ class Home extends Component {
                     <Navbar bg="dark" variant="dark">
                         <Nav className="mr-auto">
                             <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/experience">Experience</Nav.Link>
+                            <Nav.Link href="/resume">Resume</Nav.Link>
                             <Nav.Link href="/about">About</Nav.Link>
                         </Nav>
                     </Navbar>
@@ -26,8 +26,8 @@ class Home extends Component {
                         <Route exact path="/">
                             <HomePage/>
                         </Route>
-                        <Route path="/experience">
-                            <Experience/>
+                        <Route path="/resume">
+                            <Resume/>
                         </Route>
                         <Route path="/about">
                             <About/>

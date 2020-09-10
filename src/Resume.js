@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {ProgressBar, Container, Image, Row, Col, Table, Button} from 'react-bootstrap';
-import './Experience.css'
+import './Resume.css'
 
 import profil from './static/profil.jpg';
 import greenfox from './static/logos/greenfoxacademy.png';
@@ -16,7 +16,7 @@ import darabanth from './static/logos/darabanth.png';
 import mensa from './static/logos/mensa_logo.svg';
 import tura from './static/logos/mtsz.jpg';
 
-function Experience() {
+function Resume() {
     return (
         <>
             <div className="experience-header" id="top">
@@ -60,7 +60,7 @@ function Experience() {
                 <Container>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={greenfox}/>
+                            <img src={greenfox} alt="greenfox"/>
                         </Col>
                         <Col md={9}>
                             <h4>Green Fox Academy</h4>
@@ -75,7 +75,7 @@ function Experience() {
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={soter}/>
+                            <img src={soter} alt="soterline"/>
                         </Col>
                         <Col md={9}>
                             <h4>Soter-Line Education Centrum</h4>
@@ -89,7 +89,7 @@ function Experience() {
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={penta}/>
+                            <img src={penta} alt="pentaunio"/>
                         </Col>
                         <Col md={9}>
                             <h4>Penta Unió Education Centrum</h4>
@@ -98,7 +98,7 @@ function Experience() {
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={milton}/>
+                            <img src={milton} alt="miltonfriedman"/>
                         </Col>
                         <Col md={9}>
                             <h4>Milton Friedman University</h4>
@@ -107,7 +107,7 @@ function Experience() {
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={eotvos}/>
+                            <img src={eotvos} alt="eotvos"/>
                         </Col>
                         <Col md={9}>
                             <h4>Eötvös Loránd University</h4>
@@ -119,7 +119,7 @@ function Experience() {
                 <Container>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={varady}/>
+                            <img src={varady} alt="varady"/>
                         </Col>
                         <Col md={9}>
                             <h4>Várady Könyvvizsgáló Kft.</h4>
@@ -134,7 +134,7 @@ function Experience() {
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={biokom}/>
+                            <img src={biokom} alt="biokom"/>
                         </Col>
                         <Col md={9}>
                             <h4>Biokom Nonprofit Kft.</h4>
@@ -146,7 +146,7 @@ function Experience() {
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={corrman}/>
+                            <img src={corrman} alt="corrman"/>
                         </Col>
                         <Col md={9}>
                             <h4>Corr. Man. Kft.</h4>
@@ -160,7 +160,7 @@ function Experience() {
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={darabanth}/>
+                            <img src={darabanth} alt="darabanth"/>
                         </Col>
                         <Col md={9}>
                             <h4>Darabanth Kft.</h4>
@@ -193,7 +193,7 @@ function Experience() {
                 <Container>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={mensa}/>
+                            <img src={mensa} alt="mensa"/>
                         </Col>
                         <Col md={9}>
                             <h4>Mensa HungarIQa</h4>
@@ -202,7 +202,7 @@ function Experience() {
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={tura}/>
+                            <img src={tura} alt="mtsz"/>
                         </Col>
                         <Col md={9}>
                             <h4>Hungarian Hikers' Association</h4>
@@ -218,4 +218,4 @@ function Experience() {
     );
 }
 
-export default Experience;
+export default Resume;
