@@ -37,5 +37,25 @@
     text-align: justify;
 }
 
+.languages {
+    padding: 0px 10px;
+}
+
+.languages h1 {
+    padding: 30px 0px 0px 0px;
+    border-bottom: 2px solid grey;
+}
+
+.languages h5 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.languages #subtitle {
+    font-style: italic;
+}
+
+
+
 
 

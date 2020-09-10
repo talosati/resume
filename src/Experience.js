@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Image, Row, Col, Table} from "react-bootstrap";
+import {ProgressBar, Container, Image, Row, Col, Table} from "react-bootstrap";
 import './Experience.css'
 
 import profil from './static/profil.jpg';
@@ -170,6 +170,21 @@ function Experience() {
                         </Col>
                     </Row>
                 </Container>
+            </div>
+            <div className="languages">
+                <h1>Language skills</h1>
+                <h5>English</h5>
+                <p id="subtitle">Intermediate combined language examination in economics and management</p>
+                <ProgressBar variant="success" now={70} label="writing" />
+                <ProgressBar variant="info" now={90} label="reading" />
+                <ProgressBar variant="warning" now={70} label="listening" />
+                <ProgressBar variant="danger" now={60} label="speaking" />
+                <h5>German</h5>
+                <p id="subtitle">Intermediate combined language examination</p>
+                <ProgressBar variant="success" now={90} label="writing" />
+                <ProgressBar variant="info" now={90} label="reading" />
+                <ProgressBar variant="warning" now={50} label="listening" />
+                <ProgressBar variant="danger" now={70} label="speaking" />
             </div>
         </>
     );
