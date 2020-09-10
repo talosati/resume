@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {ProgressBar, Container, Image, Row, Col, Table, Button} from 'react-bootstrap';
+import {ProgressBar, Container, Row, Col, Table, Button} from 'react-bootstrap';
 import './Resume.css'
 
 import profil from './static/profil.jpg';
@@ -23,7 +23,7 @@ function Resume() {
                 <Container>
                     <Row>
                         <Col>
-                            <Image src={profil} rounded/>
+                            <img src={profil}/>
                         </Col>
                         <Col>
                             <div id="introduction">
@@ -67,9 +67,10 @@ function Resume() {
                             <p id="subtitle">2020, Software Engineering</p>
                             <ul>
                                 <li>Java, Spring, Thymeleaf, Bootstrap</li>
-                                <li>JavaScript, Express, React, Redux, Axios</li>
+                                <li>JavaScript, Express.js, React, Redux, Axios</li>
                                 <li>JSX, HTML, CSS, Sass</li>
-                                <li>MySQL, Sequelize, Docker</li>
+                                <li>MySQL, Sequelize</li>
+                                <li>Git, Heroku, Docker, AWS S3</li>
                             </ul>
                         </Col>
                     </Row>
@@ -177,16 +178,16 @@ function Resume() {
                 <h1>Language skills</h1>
                 <h5>English</h5>
                 <p id="subtitle">Intermediate combined language examination in economics and management</p>
-                <ProgressBar variant="success" now={70} label="writing" />
-                <ProgressBar variant="info" now={90} label="reading" />
-                <ProgressBar variant="warning" now={70} label="listening" />
-                <ProgressBar variant="danger" now={60} label="speaking" />
+                <ProgressBar variant="success" now={70} label="writing"/>
+                <ProgressBar variant="info" now={90} label="reading"/>
+                <ProgressBar variant="warning" now={70} label="listening"/>
+                <ProgressBar variant="danger" now={60} label="speaking"/>
                 <h5>German</h5>
                 <p id="subtitle">Intermediate combined language examination</p>
-                <ProgressBar variant="success" now={90} label="writing" />
-                <ProgressBar variant="info" now={90} label="reading" />
-                <ProgressBar variant="warning" now={50} label="listening" />
-                <ProgressBar variant="danger" now={70} label="speaking" />
+                <ProgressBar variant="success" now={90} label="writing"/>
+                <ProgressBar variant="info" now={90} label="reading"/>
+                <ProgressBar variant="warning" now={50} label="listening"/>
+                <ProgressBar variant="danger" now={70} label="speaking"/>
             </div>
             <div className="cards">
                 <h1>Hobby</h1>

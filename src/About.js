@@ -2,10 +2,12 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
 import {Table} from "react-bootstrap";
+import graduate from "./static/graduatecer.jpg";
 
 function About() {
     return (
         <div className="about">
+            <img src={graduate} alt="graduatingceremony"/>
             <Table striped bordered hover variant="dark">
                 <tbody>
                 <tr>
