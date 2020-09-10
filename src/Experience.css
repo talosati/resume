@@ -25,7 +25,8 @@
 }
 
 .cards h1 {
-    padding: 20px 0px;
+    padding: 30px 0px 0px 0px;
+    border-bottom: 2px solid grey;
 }
 
 .cards #subtitle {

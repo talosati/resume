@@ -9,6 +9,10 @@ import soter from './static/logos/soter-line.jpg';
 import penta from './static/logos/pentaunio.jpg';
 import milton from './static/logos/miltonfriedman.png';
 import eotvos from './static/logos/elte.jpg';
+import varady from './static/logos/varady.png';
+import biokom from './static/logos/biokom.png';
+import corrman from './static/logos/corrman.png';
+import darabanth from './static/logos/darabanth.png';
 
 function Experience() {
     return (
@@ -113,23 +117,62 @@ function Experience() {
                 <Container>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
-                            <img src={greenfox}/>
+                            <img src={varady}/>
                         </Col>
                         <Col md={9}>
-                            <h4>Green Fox Academy</h4>
-                            <p id="subtitle">2020, Software Engineering</p>
+                            <h4>Várady Könyvvizsgáló Kft.</h4>
+                            <p id="subtitle">2017-2020, Bookkeeper, office leader</p>
                             <ul>
-                                <li>Java, Spring, Thymeleaf, Bootstrap</li>
-                                <li>JavaScript, Express, React, Redux, Axios</li>
-                                <li>JSX, HTML, CSS, Sass</li>
-                                <li>MySQL, Sequelize, Docker</li>
+                                <li>making balance sheet about business years of companies</li>
+                                <li>submitting tax returns</li>
+                                <li>communicating with customers</li>
+                                <li>managing the cooperation between collegues, how we can share subtasks</li>
+                            </ul>
+                        </Col>
+                    </Row>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={biokom}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Biokom Nonprofit Kft.</h4>
+                            <p id="subtitle">2016-2017, Assistant bookkeeper</p>
+                            <ul>
+                                <li>working tiwh senior bookkeeper, sharing with her subtasks</li>
+                            </ul>
+                        </Col>
+                    </Row>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={corrman}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Corr. Man. Kft.</h4>
+                            <p id="subtitle">2015-2016, Bookkeeper</p>
+                            <ul>
+                                <li>making balance sheet about business years of companies</li>
+                                <li>submitting tax returns</li>
+                                <li>communicating with customers</li>
+                            </ul>
+                        </Col>
+                    </Row>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={darabanth}/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Darabanth Kft.</h4>
+                            <p id="subtitle">2013-2015, Office administrator</p>
+                            <ul>
+                                <li>communicating with customers in Hungarian, German and English</li>
+                                <li>administrating items for auctions</li>
                             </ul>
                         </Col>
                     </Row>
                 </Container>
             </div>
         </>
-);
+    );
 }
 
 export default Experience;
