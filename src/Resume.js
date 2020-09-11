@@ -28,10 +28,10 @@ function Resume() {
                         <Col>
                             <div id="introduction">
                                 <h3>Atanáz Tálos</h3>
-                                <p>I like to work in team, see how some exciting,
-                                    awesome thing is building from small parts.
-                                    There are always new challanges, they keep my mind fresh,
-                                    I always can learn something new.</p>
+                                <p>I like working in a team, and it excites me when the
+                                    small parts form into something usefull we built together.
+                                    The challanges we face keep my mind fresh,
+                                    and I like that we can always learn something new.</p>
                             </div>
                         </Col>
                     </Row>
