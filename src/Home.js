@@ -3,11 +3,12 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-} from "react-router-dom";
-import {Nav, Navbar} from "react-bootstrap";
-import HomePage from "./HomePage";
-import Resume from "./Resume";
-import About from "./About";
+} from 'react-router-dom';
+import {Nav, Navbar} from 'react-bootstrap';
+import HomePage from './HomePage';
+import Resume from './Resume';
+import About from './About';
+import Contact from './Contact'
 
 class Home extends Component {
 
@@ -20,6 +21,7 @@ class Home extends Component {
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/resume">Resume</Nav.Link>
                             <Nav.Link href="/about">About</Nav.Link>
+                            <Nav.Link href="/contact">About</Nav.Link>
                         </Nav>
                     </Navbar>
                     <Switch>
@@ -31,6 +33,9 @@ class Home extends Component {
                         </Route>
                         <Route path="/about">
                             <About/>
+                        </Route>
+                        <Route path="/contact">
+                            <Contact/>
                         </Route>
                     </Switch>
                 </main>
