@@ -1,17 +1,7 @@
-import dotenv from 'dotenv';
-
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Form} from 'react-bootstrap'
 import emailjs from 'emailjs-com';
-
-// import ReCAPTCHA from "react-google-recaptcha";
-//
-// dotenv.config();
-//
-// function onChange(value) {
-//     console.log('Captcha value:', value)
-// }
 
 function Contact() {
 
@@ -23,23 +13,20 @@ function Contact() {
             }, (error) => {
                 console.log(error.text);
             });
-        e.target.reset()
+        e.target.reset();
     }
 
     return (
         <div className='w-50 mx-auto p-3 mt-2'>
             <form className="contact-form" onSubmit={sendEmail}>
-                {/*<div>*/}
-                {/*<ReCAPTCHA sitekey={process.env.PUBLIC_RECAPTCHA_SITE_KEY} onChange={onChange()} />*/}
-                {/*</div>*/}
                 <Form>
                     <Form.Group controlId="formGroupUsername">
                         <Form.Label>Name</Form.Label>
-                        <Form.Control type="text" name="user_name"/>
+                        <Form.Control type="text" name="name"/>
                     </Form.Group>
                     <Form.Group controlId="formGroupEmail">
                         <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" name='user_email'/>
+                        <Form.Control type="email" name='email'/>
                     </Form.Group>
                     <Form.Group controlId="subject">
                         <Form.Label>Subject</Form.Label>
