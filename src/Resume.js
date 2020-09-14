@@ -198,7 +198,8 @@ function Resume() {
                         <Col md={9}>
                             <h4><a href="https://mensa.hu/" target="_blank">Mensa HungarIQa</a></h4>
                             <p id="subtitle">2019-, member</p>
-                            <p>The association used to organize presentations, dinner parties and trips for its members.</p>
+                            <p>Association organizing presentations, dinner parties and trips for its members.
+                            Membership requires an IQ above 130.</p>
                         </Col>
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
