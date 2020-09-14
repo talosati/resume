@@ -21,11 +21,11 @@ function About() {
                         <td>CodeWars</td>
                     </tr>
                     <tr>
-                        <td>talos.atanaz@gmail.com</td>
+                        <td><a href="/contact">talos.atanaz@gmail.com</a></td>
                         <td>+36309738761</td>
-                        <td>talosati</td>
-                        <td>atanaz</td>
-                        <td>talosatanaz</td>
+                        <td><a href="https://github.com/talosati" target="_blank">talosati</a></td>
+                        <td><a href="https://www.hackerrank.com/atanaz" target="_blank">atanaz</a></td>
+                        <td><a href="https://www.codewars.com/users/talosatanaz" target="_blank">talosatanaz</a></td>
                     </tr>
                     </tbody>
                 </Table>

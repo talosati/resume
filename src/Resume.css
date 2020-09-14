@@ -5,9 +5,13 @@
 }
 
 .experience-header #introduction {
-    text-align: right;
+    text-align: justify;
     margin: auto;
     padding: 40px 10px;
+}
+
+.experience-header #introduction h3 {
+    text-align: right;
 }
 
 .experience-header Table {
@@ -61,6 +65,14 @@
 @media print {
     #bottom {
         display: none;
+    }
+
+    a {
+        color: black;
+    }
+
+    a:link {
+        text-decoration: none;
     }
 }
 

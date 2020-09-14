@@ -15,6 +15,7 @@ import corrman from './static/logos/corrman.png';
 import darabanth from './static/logos/darabanth.png';
 import mensa from './static/logos/mensa_logo.svg';
 import tura from './static/logos/mtsz.jpg';
+import feather from './static/logos/feather.jpg';
 
 function Resume() {
     return (
@@ -46,11 +47,11 @@ function Resume() {
                         <td>CodeWars</td>
                     </tr>
                     <tr>
-                        <td>talos.atanaz@gmail.com</td>
+                        <td><a href="/contact">talos.atanaz@gmail.com</a></td>
                         <td>+36309738761</td>
-                        <td>talosati</td>
-                        <td>atanaz</td>
-                        <td>talosatanaz</td>
+                        <td><a href="https://github.com/talosati" target="_blank">talosati</a></td>
+                        <td><a href="https://www.hackerrank.com/atanaz" target="_blank">atanaz</a></td>
+                        <td><a href="https://www.codewars.com/users/talosatanaz" target="_blank">talosatanaz</a></td>
                     </tr>
                     </tbody>
                 </Table>
@@ -63,7 +64,7 @@ function Resume() {
                             <img src={greenfox} alt="greenfox"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Green Fox Academy</h4>
+                            <h4><a href="https://www.greenfoxacademy.com/en/home" target="_blank">Green Fox Academy</a></h4>
                             <p id="subtitle">2020, Software Engineering</p>
                             <ul>
                                 <li>Java, Spring, Thymeleaf, Bootstrap</li>
@@ -79,7 +80,7 @@ function Resume() {
                             <img src={soter} alt="soterline"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Soter-Line Education Centrum</h4>
+                            <h4><a href="https://www.soterline.hu/" target="_blank">Soter-Line Education Centrum</a></h4>
                             <p id="subtitle">2017-2019, Graphic Designer</p>
                             <ul>
                                 <li>Adobe Photoshop</li>
@@ -93,7 +94,7 @@ function Resume() {
                             <img src={penta} alt="pentaunio"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Penta Unió Education Centrum</h4>
+                            <h4><a href="https://www.penta.hu/" target="_blank">Penta Unió Education Centrum</a></h4>
                             <p id="subtitle">2015, Chartered certified accountant for business</p>
                         </Col>
                     </Row>
@@ -102,7 +103,7 @@ function Resume() {
                             <img src={milton} alt="miltonfriedman"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Milton Friedman University</h4>
+                            <h4><a href="https://uni-milton.hu/" target="_blank">Milton Friedman University</a></h4>
                             <p id="subtitle">2010-2015, Accounting and Finance BA</p>
                         </Col>
                     </Row>
@@ -111,7 +112,7 @@ function Resume() {
                             <img src={eotvos} alt="eotvos"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Eötvös Loránd University</h4>
+                            <h4><a href="https://www.elte.hu/en/" target="_blank">Eötvös Loránd University</a></h4>
                             <p id="subtitle">2009-2013, Hungarian Language and Literature BA</p>
                         </Col>
                     </Row>
@@ -123,13 +124,12 @@ function Resume() {
                             <img src={varady} alt="varady"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Várady Könyvvizsgáló Kft.</h4>
-                            <p id="subtitle">2017-2020, Bookkeeper, office leader</p>
+                            <h4><a href="http://www.varadyconsulting.hu/" target="_blank">Várady Könyvvizsgáló Kft.</a></h4>
+                            <p id="subtitle">2017-2020, Office leader, bookkeeper</p>
                             <ul>
-                                <li>making balance sheet about business years of companies</li>
-                                <li>submitting tax returns</li>
-                                <li>communicating with customers</li>
                                 <li>managing the cooperation between collegues, how we can share subtasks</li>
+                                <li>communicating with customers</li>
+                                <li>making balance sheet, submitting tax returns</li>
                             </ul>
                         </Col>
                     </Row>
@@ -138,10 +138,10 @@ function Resume() {
                             <img src={biokom} alt="biokom"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Biokom Nonprofit Kft.</h4>
+                            <h4><a href="https://www.biokom.hu/" target="_blank">Biokom Nonprofit Kft.</a></h4>
                             <p id="subtitle">2016-2017, Assistant bookkeeper</p>
                             <ul>
-                                <li>working tiwh senior bookkeeper, sharing with her subtasks</li>
+                                <li>working with senior bookkeeper, sharing with her subtasks</li>
                             </ul>
                         </Col>
                     </Row>
@@ -153,8 +153,7 @@ function Resume() {
                             <h4>Corr. Man. Kft.</h4>
                             <p id="subtitle">2015-2016, Bookkeeper</p>
                             <ul>
-                                <li>making balance sheet about business years of companies</li>
-                                <li>submitting tax returns</li>
+                                <li>making balance sheets, submitting tax returns</li>
                                 <li>communicating with customers</li>
                             </ul>
                         </Col>
@@ -164,7 +163,7 @@ function Resume() {
                             <img src={darabanth} alt="darabanth"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Darabanth Kft.</h4>
+                            <h4><a href="https://www.darabanth.com/en/" target="_blank">Darabanth Kft.</a></h4>
                             <p id="subtitle">2013-2015, Office administrator</p>
                             <ul>
                                 <li>communicating with customers in Hungarian, German and English</li>
@@ -190,15 +189,16 @@ function Resume() {
                 <ProgressBar variant="danger" now={70} label="speaking"/>
             </div>
             <div className="cards">
-                <h1>Hobby</h1>
+                <h1>Hobbies</h1>
                 <Container>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
                             <img src={mensa} alt="mensa"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Mensa HungarIQa</h4>
+                            <h4><a href="https://mensa.hu/" target="_blank">Mensa HungarIQa</a></h4>
                             <p id="subtitle">2019-, member</p>
+                            <p>The association used to organize presentations, dinner parties and trips for its members.</p>
                         </Col>
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
@@ -206,8 +206,17 @@ function Resume() {
                             <img src={tura} alt="mtsz"/>
                         </Col>
                         <Col md={9}>
-                            <h4>Hungarian Hikers' Association</h4>
+                            <h4><a href="http://www.mtsz.org/" target="_blank">Hungarian Hikers' Association</a></h4>
                             <p id="subtitle">2016, Map reading & Navigation Course</p>
+                        </Col>
+                    </Row>
+                    <Row style={{'margin-bottom': '20px'}}>
+                        <Col md={3}>
+                            <img src={feather} alt="quill-pen"/>
+                        </Col>
+                        <Col md={9}>
+                            <h4>Literature</h4>
+                            <p>Writing poems and short stories.</p>
                         </Col>
                     </Row>
                 </Container>
