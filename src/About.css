@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.about a {
+    color: deepskyblue;
+}
+
 .about p {
     padding: 0px 10px;
     text-align: justify;

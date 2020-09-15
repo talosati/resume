@@ -18,6 +18,10 @@
     margin-top: 40px;
 }
 
+.experience-header a {
+    color: deepskyblue;
+}
+
 .cards {
     padding: 10px 10px;
 }
