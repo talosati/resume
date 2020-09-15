@@ -25,7 +25,7 @@ function HomePage() {
                                 <li>Sass</li>
                                 <li>Java</li>
                                 <li>JavaScript</li>
-                                <li>React</li>
+                                <li>ReactJS</li>
                                 <li>Redux</li>
                                 <li>Spring</li>
                                 <li>Thymeleaf</li>
