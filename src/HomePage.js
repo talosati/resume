@@ -7,7 +7,7 @@ function HomePage() {
     return (
         <>
             <div className="home-header">
-                <h1>Hello, my name is Atanáz Tálos, welcome to my resume website!</h1>
+                <h1>Hello, my name is Atanas Tálos, welcome to my resume website!</h1>
                 <p>I am a junior full-stack developer, using frameworks React, Express.js and Spring.</p>
                 <p><Button href="/resume" variant="dark">See more</Button></p>
             </div>
