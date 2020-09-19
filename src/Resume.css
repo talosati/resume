@@ -22,6 +22,10 @@
     color: deepskyblue;
 }
 
+.onlyPrint p {
+    margin-bottom: 5px;
+}
+
 .cards {
     padding: 10px 10px;
 }
@@ -67,12 +71,22 @@
 }
 
 @media print {
-    #bottom {
+    table {
         display: none;
     }
 
     a:link {
         text-decoration: none;
+    }
+
+    #bottom {
+        display: none;
+    }
+}
+
+@media screen {
+    .onlyPrint {
+        display: none;
     }
 }
 

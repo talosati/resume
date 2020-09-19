@@ -55,6 +55,24 @@ function Resume() {
                     </tbody>
                 </Table>
             </div>
+            <div className="onlyPrint cards">
+                <h1>Contacts</h1>
+                <Container>
+                    <Row>
+                        <Col md={6}>
+                            <p>My resume website: <a href="https://atanastalos.com" target="_blank">atanastalos.com</a></p>
+                            <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
+                            <p>Mobile: +36309738761</p>
+                        </Col>
+                        <Col md={6}>
+                            <p>Github: <a href="https://github.com/talosati" target="_blank">talosati</a></p>
+                            <p>HackerRank: <a href="https://www.hackerrank.com/atanaz" target="_blank">atanaz</a></p>
+                            <p>CodeWars: <a href="https://www.codewars.com/users/talosatanaz"
+                                           target="_blank">talosatanaz</a></p>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
             <div className="cards">
                 <h1>Education</h1>
                 <Container>
@@ -63,7 +81,8 @@ function Resume() {
                             <img src={greenfox} alt="greenfox"/>
                         </Col>
                         <Col md={9}>
-                            <h4><a href="https://www.greenfoxacademy.com/en/home" target="_blank">Green Fox Academy</a></h4>
+                            <h4><a href="https://www.greenfoxacademy.com/en/home" target="_blank">Green Fox Academy</a>
+                            </h4>
                             <p id="subtitle">2020, Software Engineering</p>
                             <ul>
                                 <li>Java, Spring, Thymeleaf, Bootstrap</li>
@@ -79,7 +98,8 @@ function Resume() {
                             <img src={soter} alt="soterline"/>
                         </Col>
                         <Col md={9}>
-                            <h4><a href="https://www.soterline.hu/" target="_blank">Soter-Line Education Centrum</a></h4>
+                            <h4><a href="https://www.soterline.hu/" target="_blank">Soter-Line Education Centrum</a>
+                            </h4>
                             <p id="subtitle">2017-2019, Graphic Designer</p>
                             <ul>
                                 <li>Adobe Photoshop</li>
@@ -123,7 +143,8 @@ function Resume() {
                             <img src={varady} alt="varady"/>
                         </Col>
                         <Col md={9}>
-                            <h4><a href="http://www.varadyconsulting.hu/" target="_blank">Várady Könyvvizsgáló Kft.</a></h4>
+                            <h4><a href="http://www.varadyconsulting.hu/" target="_blank">Várady Könyvvizsgáló Kft.</a>
+                            </h4>
                             <p id="subtitle">2017-2020, Office leader, bookkeeper</p>
                             <ul>
                                 <li>managing the cooperation between collegues, how we can share subtasks</li>
@@ -198,7 +219,7 @@ function Resume() {
                             <h4><a href="https://mensa.hu/" target="_blank">Mensa HungarIQa</a></h4>
                             <p id="subtitle">2019-, member</p>
                             <p>Association organizing presentations, dinner parties and trips for its members.
-                            Membership requires an IQ above 130.</p>
+                                Membership requires an IQ above 130.</p>
                         </Col>
                     </Row>
                     <Row style={{'margin-bottom': '20px'}}>
