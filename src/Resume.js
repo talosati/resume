@@ -55,12 +55,11 @@ function Resume() {
                     </tbody>
                 </Table>
             </div>
-            <div className="onlyPrint cards">
-                <h1>Contacts</h1>
+            <div className="onlyPrint">
                 <Container>
                     <Row>
                         <Col md={6}>
-                            <p>My resume website: <a href="https://atanastalos.com" target="_blank">atanastalos.com</a></p>
+                            <p>My resume website: <a href="https://atanastalos.com/" target="_blank">atanastalos.com</a></p>
                             <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
                             <p>Mobile: +36309738761</p>
                         </Col>
@@ -153,6 +152,7 @@ function Resume() {
                             </ul>
                         </Col>
                     </Row>
+                    <div className="pagebreak"></div>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
                             <img src={biokom} alt="biokom"/>

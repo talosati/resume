@@ -1,13 +1,13 @@
 .experience-header img {
     margin: auto;
     width: 60%;
-    padding: 20px;
+    padding: 40px 0px;
 }
 
 .experience-header #introduction {
     text-align: justify;
     margin: auto;
-    padding: 40px 10px;
+    padding: 40px 10px 40px 0px;
 }
 
 .experience-header #introduction h3 {
@@ -70,10 +70,12 @@
     padding: 20px 48%;
 }
 
-@media print {
+@media print, screen and (max-width: 1000px) {
     table {
         display: none;
     }
+
+    .pagebreak { page-break-before: always; }
 
     a:link {
         text-decoration: none;
@@ -84,7 +86,7 @@
     }
 }
 
-@media screen {
+@media screen and (min-width: 1000px) {
     .onlyPrint {
         display: none;
     }
