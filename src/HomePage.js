@@ -17,32 +17,51 @@ function HomePage() {
                         <Col>
                             <h4>Languages and Frameworks</h4>
                             <ul>
-                                <li>Axios</li>
-                                <li>Bootstrap</li>
-                                <li>CSS</li>
-                                <li>Express.js</li>
                                 <li>HTML</li>
-                                <li>Sass</li>
-                                <li>Java</li>
+                                <li>CSS</li>
+                                <ul>
+                                    <li>Bootstrap</li>
+                                    <li>Sass</li>
+                                </ul>
                                 <li>JavaScript</li>
-                                <li>ReactJS</li>
-                                <li>Redux</li>
-                                <li>Spring</li>
-                                <li>Thymeleaf</li>
+                                <ul>
+                                    <li>Axios</li>
+                                    <li>Express.js</li>
+                                    <li>Jest</li>
+                                    <li>ReactJS</li>
+                                    <li>Redux</li>
+                                    <li>Sequelize</li>
+                                </ul>
+                                <li>Java</li>
+                                <ul>
+                                    <li>Spring</li>
+                                    <li>Thymeleaf</li>
+                                </ul>
                             </ul>
                         </Col>
                         <Col>
                             <h4>Tools</h4>
                             <ul>
-                                <li>AWS S3</li>
+                                <li>AWS</li>
+                                <ul>
+                                    <li>S3</li>
+                                    <li>Route 53</li>
+                                    <li>CloudFront</li>
+                                    <li>Certificate Manager</li>
+                                </ul>
                                 <li>Docker</li>
+                                <li>ESLint</li>
                                 <li>Git</li>
                                 <li>Heroku</li>
                                 <li>JIRA</li>
-                                <li>Jest</li>
                                 <li>MySQL</li>
                                 <li>NodeJS</li>
-                                <li>Sequelize</li>
+                                <ul>
+                                    <li>Babel</li>
+                                    <li>npm</li>
+                                    <li>yarn</li>
+                                </ul>
+                                <li>Prettier</li>
                                 <li>Swagger</li>
                             </ul>
                         </Col>
