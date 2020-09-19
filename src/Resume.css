@@ -1,7 +1,7 @@
 .experience-header img {
     margin: auto;
-    width: 60%;
-    padding: 40px 0px;
+    width: 100%;
+    padding: 40px;
 }
 
 .experience-header #introduction {
@@ -11,7 +11,7 @@
 }
 
 .experience-header #introduction h3 {
-    text-align: right;
+    text-align: left;
 }
 
 .experience-header Table {
@@ -22,7 +22,7 @@
     color: deepskyblue;
 }
 
-.onlyPrint p {
+.onlyPrintAndMobileView p {
     margin-bottom: 5px;
 }
 
@@ -70,12 +70,16 @@
     padding: 20px 48%;
 }
 
+@media print, screen and (min-width: 768px) and (max-width: 999px) {
+    #rightColumn {
+        padding-left: 55px;
+    }
+}
+
 @media print, screen and (max-width: 1000px) {
     table {
         display: none;
     }
-
-    .pagebreak { page-break-before: always; }
 
     a:link {
         text-decoration: none;
@@ -87,11 +91,22 @@
 }
 
 @media screen and (min-width: 1000px) {
-    .onlyPrint {
+    .onlyPrintAndMobileView {
         display: none;
     }
 }
 
+@media screen and (max-width: 575px) {
+    .experience-header img {
+        padding-top: 0px;
+    }
+}
+
+@media print {
+    .education, .experience, .languages, .hobbies {
+        page-break-inside: avoid;
+    }
+}
 
 
 

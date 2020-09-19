@@ -13,7 +13,7 @@ import varady from './static/logos/varady.png';
 import biokom from './static/logos/biokom.png';
 import corrman from './static/logos/corrman.png';
 import darabanth from './static/logos/darabanth.png';
-import mensa from './static/logos/mensa_logo.svg';
+import mensa from './static/logos/mensa_logo.png';
 import tura from './static/logos/mtsz.jpg';
 import feather from './static/logos/feather.jpg';
 
@@ -23,16 +23,16 @@ function Resume() {
             <div className="experience-header" id="top">
                 <Container>
                     <Row>
-                        <Col>
-                            <img src={profil}/>
-                        </Col>
-                        <Col>
+                        <Col sm={6}>
                             <div id="introduction">
                                 <h3>Atanas Tálos</h3>
                                 <p>I enjoy working in a team, and I find it exciting how something is
                                     composed out of individual parts, the result of joint work.
                                     I like the variety of the challenges, they motivate and drive me.</p>
                             </div>
+                        </Col>
+                        <Col sm={6}>
+                            <img src={profil}/>
                         </Col>
                     </Row>
                 </Container>
@@ -55,7 +55,7 @@ function Resume() {
                     </tbody>
                 </Table>
             </div>
-            <div className="onlyPrint">
+            <div className="onlyPrintAndMobileView">
                 <Container>
                     <Row>
                         <Col md={6}>
@@ -63,7 +63,7 @@ function Resume() {
                             <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
                             <p>Mobile: +36309738761</p>
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} id="rightColumn">
                             <p>Github: <a href="https://github.com/talosati" target="_blank">talosati</a></p>
                             <p>HackerRank: <a href="https://www.hackerrank.com/atanaz" target="_blank">atanaz</a></p>
                             <p>CodeWars: <a href="https://www.codewars.com/users/talosatanaz"
@@ -72,7 +72,9 @@ function Resume() {
                     </Row>
                 </Container>
             </div>
+
             <div className="cards">
+                <div className="education">
                 <h1>Education</h1>
                 <Container>
                     <Row style={{'margin-bottom': '20px'}}>
@@ -136,6 +138,9 @@ function Resume() {
                         </Col>
                     </Row>
                 </Container>
+                </div>
+
+                <div className="experience">
                 <h1>Experience</h1>
                 <Container>
                     <Row style={{'margin-bottom': '20px'}}>
@@ -153,7 +158,6 @@ function Resume() {
                             </ul>
                         </Col>
                     </Row>
-                    <div className="pagebreak"></div>
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
                             <img src={biokom} alt="biokom"/>
@@ -193,7 +197,9 @@ function Resume() {
                         </Col>
                     </Row>
                 </Container>
+                </div>
             </div>
+
             <div className="languages">
                 <h1>Language skills</h1>
                 <h5>English</h5>
@@ -209,7 +215,7 @@ function Resume() {
                 <ProgressBar variant="warning" now={50} label="listening"/>
                 <ProgressBar variant="danger" now={70} label="speaking"/>
             </div>
-            <div className="cards">
+            <div className="cards hobbies">
                 <h1>Hobbies</h1>
                 <Container>
                     <Row style={{'margin-bottom': '20px'}}>

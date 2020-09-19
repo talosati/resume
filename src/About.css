@@ -4,6 +4,19 @@
     text-align: center;
 }
 
+.onlyPrintAndMobile {
+    padding-bottom: 60px;
+}
+
+.onlyPrintAndMobile h1 {
+    padding: 0px 10px;
+    border-bottom: 2px solid grey;
+}
+
+.onlyPrintAndMobile p {
+    margin-bottom: 5px;
+}
+
 .about a {
     color: deepskyblue;
 }
@@ -22,3 +35,22 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about-header img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .onlyPrintAndMobile {
+        display: none;
+    }
+}
+
+@media screen {
+    #onlyPrint {
+        display: none;
+    }
+}
+

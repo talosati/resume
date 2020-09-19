@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
-import {Table} from "react-bootstrap";
+import {Col, Container, Row, Table} from "react-bootstrap";
 import graduate from "./static/graduatecer.jpg";
 
 function About() {
@@ -29,6 +29,24 @@ function About() {
                     </tr>
                     </tbody>
                 </Table>
+                <div className="onlyPrintAndMobile">
+                    <h1 id="onlyPrint">Cover letter</h1>
+                    <Container>
+                        <Row>
+                            <Col md={6}>
+                                <p>My resume website: <a href="https://atanastalos.com/" target="_blank">atanastalos.com</a></p>
+                                <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
+                                <p>Mobile: +36309738761</p>
+                            </Col>
+                            <Col md={6}>
+                                <p>Github: <a href="https://github.com/talosati" target="_blank">talosati</a></p>
+                                <p>HackerRank: <a href="https://www.hackerrank.com/atanaz" target="_blank">atanaz</a></p>
+                                <p>CodeWars: <a href="https://www.codewars.com/users/talosatanaz"
+                                                target="_blank">talosatanaz</a></p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
                 <p>
                     I graduated from a Hungarian bootcamp called Green Fox Academy this year as a full-stack developer.
                     The

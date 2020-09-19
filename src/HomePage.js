@@ -14,7 +14,7 @@ function HomePage() {
             <div className="other-skills">
                 <Container>
                     <Row>
-                        <Col>
+                        <Col sm={12} md={4}>
                             <h4>Languages and Frameworks</h4>
                             <ul>
                                 <li>HTML</li>
@@ -39,7 +39,7 @@ function HomePage() {
                                 </ul>
                             </ul>
                         </Col>
-                        <Col>
+                        <Col sm={12} md={4}>
                             <h4>Tools</h4>
                             <ul>
                                 <li>AWS</li>
@@ -65,7 +65,7 @@ function HomePage() {
                                 <li>Swagger</li>
                             </ul>
                         </Col>
-                        <Col>
+                        <Col sm={12} md={4}>
                             <h4>Concepts</h4>
                             <ul>
                                 <li>MVC</li>
