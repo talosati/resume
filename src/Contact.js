@@ -9,9 +9,9 @@ function Contact() {
         e.preventDefault();
         emailjs.sendForm('gmail', 'template_lq7wgyd', e.target, 'user_arXYp4I4EW74lEp92cYT1')
             .then((result) => {
-                console.log(result.text);
+                alert("Thank you for your email!");
             }, (error) => {
-                console.log(error.text);
+                alert(error.text);
             });
         e.target.reset();
     }
