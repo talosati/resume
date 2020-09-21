@@ -30,7 +30,7 @@ function About() {
                     </tbody>
                 </Table>
                 <div className="onlyPrintAndMobile">
-                    <h1 id="onlyPrint">Cover letter</h1>
+                    <h1 id="onlyPrint">Atanas Tálos</h1>
                     <Container>
                         <Row>
                             <Col md={6}>
