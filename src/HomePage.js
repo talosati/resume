@@ -11,6 +11,7 @@ function HomePage() {
                 <p>I am a junior full-stack developer, using frameworks React, Express.js and Spring.</p>
                 <p><Button href="/resume" variant="dark">See more</Button></p>
             </div>
+
             <div className="other-skills">
                 <Container>
                     <Row>

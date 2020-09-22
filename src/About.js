@@ -10,6 +10,7 @@ function About() {
             <div className="about-header">
                 <img src={graduate} alt="graduatingceremony"/>
             </div>
+
             <div className="about">
                 <Table striped bordered hover variant="dark">
                     <tbody>
@@ -29,6 +30,7 @@ function About() {
                     </tr>
                     </tbody>
                 </Table>
+
                 <div className="onlyPrintAndMobile">
                     <h1 id="onlyPrint">Atanas Tálos</h1>
                     <Container>
@@ -49,6 +51,7 @@ function About() {
                         </Row>
                     </Container>
                 </div>
+
                 <p>
                     I graduated from the <a href="https://www.greenfoxacademy.com/en/home" target="_blank">Green Fox
                     Academy</a> bootcamp this year as a full-stack developer.

@@ -215,6 +215,7 @@ function Resume() {
                 <ProgressBar variant="warning" now={50} label="listening"/>
                 <ProgressBar variant="danger" now={70} label="speaking"/>
             </div>
+
             <div className="cards hobbies">
                 <h1>Hobbies</h1>
                 <Container>
