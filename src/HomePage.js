@@ -1,7 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomePage.css'
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Row} from "react-bootstrap";
+
+import screenshot from './static/resume_website.png';
 
 function HomePage() {
     return (
@@ -10,6 +12,25 @@ function HomePage() {
                 <h1>Hello, my name is Atanas Tálos, welcome to my resume website!</h1>
                 <p>I am a junior full-stack developer, using frameworks React, Express.js and Spring.</p>
                 <p><Button href="/resume" variant="dark">See more</Button></p>
+            </div>
+
+            <div className="projects">
+                <Container>
+                    <Row style={{'margin': '50px 0px'}}>
+                        <Col md={4} sm={12}>
+                            <Card>
+                                <Card.Img variant="top" src={screenshot}/>
+                                <Card.Body>
+                                    <Card.Title>Resume in React</Card.Title>
+                                    <Card.Text>
+                                        My personal page built in React.
+                                    </Card.Text>
+                                    <Button href="https://github.com/talosati/resume/" target="_blank" variant="dark">Source code</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
 
             <div className="other-skills">
