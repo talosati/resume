@@ -1,5 +1,6 @@
 import React, {useEffect, useRef, useState} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Contact.css';
 import {Alert, Button, Form} from 'react-bootstrap'
 import emailjs from 'emailjs-com';
 
@@ -9,6 +10,7 @@ function Contact() {
     const prevTrigger = useRef('');
     const [resultOfSendingEmail, setResultOfSendingEmail] = useState('');
     const [design, setDesign] = useState('');
+    const [id, setId] = useState('');
 
     function sendEmail(e) {
         e.preventDefault();
@@ -16,9 +18,11 @@ function Contact() {
             .then((result) => {
                 setResultOfSendingEmail('Thank you for your email!');
                 setDesign('success');
+                setId('success-alert');
             }, (error) => {
                 setResultOfSendingEmail(error.text);
                 setDesign('danger');
+                setId('error-alert');
             });
         e.target.reset();
     }
@@ -28,7 +32,7 @@ function Contact() {
     }, [trigger]);
 
     function tryToSendEmail() {
-        return <Alert variant={design}>{resultOfSendingEmail}</Alert>
+        return <Alert variant={design} id={id}>{resultOfSendingEmail}</Alert>
     }
 
     return (
