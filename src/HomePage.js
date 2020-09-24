@@ -93,7 +93,7 @@ function HomePage() {
                                 <li>MVC</li>
                                 <li>REST API</li>
                                 <li>SOLID principles</li>
-                                <li>Unit Testing</li>
+                                <li>Unit Testing, FIRST principles</li>
                             </ul>
                         </Col>
                     </Row>
