@@ -83,6 +83,7 @@ function HomePage() {
                                     <li>npm</li>
                                     <li>yarn</li>
                                 </ul>
+                                <li>Postman</li>
                                 <li>Prettier</li>
                                 <li>Swagger</li>
                             </ul>
