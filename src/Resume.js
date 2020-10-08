@@ -78,10 +78,21 @@ function Resume() {
                 </Container>
             </div>
 
+            <div className="languages avoidBreak">
+                <h1>Language skills</h1>
+                <h5>English</h5>
+                <ProgressBar variant="info" now={80} label="reading/writing 80%"/>
+                <ProgressBar variant="danger" now={65} label="listening/speaking 65%"/>
+                <h5>German</h5>
+                <ProgressBar variant="info" now={80} label="reading/writing 80%"/>
+                <ProgressBar variant="danger" now={50} label="listening/speaking 50%"/>
+            </div>
+
             <div className="cards">
                 <div className="education">
                     <h1>Education</h1>
                     <Container>
+                        <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
                             <Col md={3}>
                                 <img src={greenfox} alt="greenfox"/>
@@ -126,6 +137,8 @@ function Resume() {
                                 <p id="subtitle">2015, Chartered certified accountant for business</p>
                             </Col>
                         </Row>
+                    </div>
+                        <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
                             <Col md={3}>
                                 <img src={milton} alt="miltonfriedman"/>
@@ -144,12 +157,14 @@ function Resume() {
                                 <p id="subtitle">2009-2013, Hungarian Language and Literature BA</p>
                             </Col>
                         </Row>
+                        </div>
                     </Container>
                 </div>
 
                 <div className="experience">
                     <h1>Experience</h1>
                     <Container>
+                        <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
                             <Col md={3}>
                                 <img src={varady} alt="varady"/>
@@ -178,6 +193,8 @@ function Resume() {
                                 </ul>
                             </Col>
                         </Row>
+                    </div>
+                    <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
                             <Col md={3}>
                                 <img src={corrman} alt="corrman"/>
@@ -204,29 +221,15 @@ function Resume() {
                                 </ul>
                             </Col>
                         </Row>
+                    </div>
                     </Container>
                 </div>
-            </div>
-
-            <div className="languages">
-                <h1>Language skills</h1>
-                <h5>English</h5>
-                <p id="subtitle">Intermediate combined language examination in economics and management</p>
-                <ProgressBar variant="success" now={70} label="writing"/>
-                <ProgressBar variant="info" now={90} label="reading"/>
-                <ProgressBar variant="warning" now={70} label="listening"/>
-                <ProgressBar variant="danger" now={60} label="speaking"/>
-                <h5>German</h5>
-                <p id="subtitle">Intermediate combined language examination</p>
-                <ProgressBar variant="success" now={90} label="writing"/>
-                <ProgressBar variant="info" now={90} label="reading"/>
-                <ProgressBar variant="warning" now={50} label="listening"/>
-                <ProgressBar variant="danger" now={70} label="speaking"/>
             </div>
 
             <div className="cards hobbies">
                 <h1>Hobbies</h1>
                 <Container>
+                    <div className="avoidBreak">
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
                             <img src={mensa} alt="mensa"/>
@@ -247,6 +250,8 @@ function Resume() {
                             <p id="subtitle">2016, Map reading & Navigation Course</p>
                         </Col>
                     </Row>
+                    </div>
+                    <div className="avoidBreak">
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
                             <img src={feather} alt="quill-pen"/>
@@ -256,6 +261,7 @@ function Resume() {
                             <p>Writing poems and short stories.</p>
                         </Col>
                     </Row>
+                    </div>
                 </Container>
             </div>
             <div id="bottom">

@@ -103,7 +103,7 @@
 }
 
 @media print {
-    .education, .experience, .languages, .hobbies {
+    .avoidBreak {
         page-break-inside: avoid;
     }
 }
