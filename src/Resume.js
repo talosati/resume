@@ -108,7 +108,7 @@ function Resume() {
                                     <li>JSX, HTML, CSS, Sass</li>
                                     <li>MySQL, Sequelize</li>
                                     <li>Git, Heroku, Docker</li>
-                                    <li>AWS S3, Route 53, CloudFront, Certificate Manager</li>
+                                    {/*<li>AWS S3, Route 53, CloudFront, Certificate Manager</li>*/}
                                 </ul>
                             </Col>
                         </Row>

@@ -50,6 +50,7 @@ function HomePage() {
                                     <li>Axios</li>
                                     <li>Express.js</li>
                                     <li>Jest</li>
+                                    <li>Mongoose</li>
                                     <li>ReactJS</li>
                                     <li>Redux</li>
                                     <li>Sequelize</li>
@@ -66,16 +67,18 @@ function HomePage() {
                             <ul>
                                 <li>AWS</li>
                                 <ul>
-                                    <li>S3</li>
-                                    <li>Route 53</li>
-                                    <li>CloudFront</li>
+                                    <li>Amplify</li>
                                     <li>Certificate Manager</li>
+                                    <li>CloudFront</li>
+                                    <li>Route 53</li>
+                                    <li>S3</li>
                                 </ul>
                                 <li>Docker</li>
                                 <li>ESLint</li>
                                 <li>Git</li>
                                 <li>Heroku</li>
                                 <li>JIRA</li>
+                                <li>MongoDB</li>
                                 <li>MySQL</li>
                                 <li>NodeJS</li>
                                 <ul>
