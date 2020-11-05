@@ -7,8 +7,8 @@ import {
 import {Nav, Navbar} from 'react-bootstrap';
 import HomePage from './HomePage';
 import Resume from './Resume';
-import About from './About';
-import Contact from './Contact'
+import Projects from './Projects';
+import Contact from './Contact';
 
 class Home extends Component {
 
@@ -20,7 +20,7 @@ class Home extends Component {
                         <Nav className="mr-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/resume">Resume</Nav.Link>
-                            <Nav.Link href="/about">About</Nav.Link>
+                            <Nav.Link href="/projects">Projects</Nav.Link>
                             <Nav.Link href="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar>
@@ -31,8 +31,8 @@ class Home extends Component {
                         <Route path="/resume">
                             <Resume/>
                         </Route>
-                        <Route path="/about">
-                            <About/>
+                        <Route path="/projects">
+                            <Projects/>
                         </Route>
                         <Route path="/contact">
                             <Contact/>

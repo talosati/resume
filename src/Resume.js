@@ -26,9 +26,9 @@ function Resume() {
                         <Col sm={6}>
                             <div id="introduction">
                                 <h3>Atanas Tálos</h3>
-                                <p>I enjoy working in a team, and I find it exciting how something is
-                                    composed out of individual parts, the result of joint work.
-                                    I like the variety of the challenges, they motivate and drive me.</p>
+                                <p>I enjoy working in a team, and I find it exciting to see how something is
+                                    built from individual parts and how a collaboration can result in an organic whole.
+                                I am motivated and driven by the variety of challenges ahead.</p>
                             </div>
                         </Col>
                         <Col sm={6}>
@@ -88,11 +88,85 @@ function Resume() {
                 <ProgressBar variant="danger" now={50} label="listening/speaking 50%"/>
             </div>
 
+            <div className="programmer-skills avoidBreak">
+                <h1>Programmer skills</h1>
+                <Container>
+                    <Row>
+                        <Col sm={12} md={4}>
+                            <h4>Languages and Frameworks</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <ul>
+                                    <li>Bootstrap</li>
+                                    <li>Sass</li>
+                                </ul>
+                                <li>JavaScript ES6</li>
+                                <ul>
+                                    <li>Axios</li>
+                                    <li>Express.js</li>
+                                    <li>Jest</li>
+                                    <li>Mongoose</li>
+                                    <li>ReactJS</li>
+                                    <li>Redux</li>
+                                    <li>Sequelize</li>
+                                </ul>
+                                <li>Java</li>
+                                <ul>
+                                    <li>Hibernate</li>
+                                    <li>JUnit</li>
+                                    <li>Spring</li>
+                                    <li>Thymeleaf</li>
+                                </ul>
+                            </ul>
+                        </Col>
+                        <Col sm={12} md={4}>
+                            <h4>Tools and Technologies</h4>
+                            <ul>
+                                <li>AWS</li>
+                                <ul>
+                                    <li>Amplify</li>
+                                    <li>Certificate Manager</li>
+                                    <li>CloudFront</li>
+                                    <li>Route 53</li>
+                                    <li>S3</li>
+                                </ul>
+                                <li>Docker</li>
+                                <li>ESLint</li>
+                                <li>Git</li>
+                                <li>Heroku</li>
+                                <li>JIRA</li>
+                                <li>MongoDB</li>
+                                <li>MySQL</li>
+                                <li>NodeJS</li>
+                                <ul>
+                                    <li>Babel</li>
+                                    <li>npm</li>
+                                    <li>yarn</li>
+                                </ul>
+                                <li>Postman</li>
+                                <li>Prettier</li>
+                                <li>Swagger</li>
+                            </ul>
+                        </Col>
+                        <Col sm={12} md={4}>
+                            <h4>Concepts</h4>
+                            <ul>
+                                <li>Clean code</li>
+                                <li>MVC</li>
+                                <li>REST API</li>
+                                <li>SOLID principles</li>
+                                <li>Unit Testing, FIRST principles</li>
+                            </ul>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
             <div className="cards">
-                <div className="education">
+                <div className="education avoidBreak">
                     <h1>Education</h1>
                     <Container>
-                        <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
                             <Col md={3}>
                                 <img src={greenfox} alt="greenfox"/>
@@ -108,7 +182,6 @@ function Resume() {
                                     <li>JSX, HTML, CSS, Sass</li>
                                     <li>MySQL, Sequelize</li>
                                     <li>Git, Heroku, Docker</li>
-                                    {/*<li>AWS S3, Route 53, CloudFront, Certificate Manager</li>*/}
                                 </ul>
                             </Col>
                         </Row>
@@ -137,8 +210,6 @@ function Resume() {
                                 <p id="subtitle">2015, Chartered certified accountant for business</p>
                             </Col>
                         </Row>
-                    </div>
-                        <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
                             <Col md={3}>
                                 <img src={milton} alt="miltonfriedman"/>
@@ -157,12 +228,11 @@ function Resume() {
                                 <p id="subtitle">2009-2013, Hungarian Language and Literature BA</p>
                             </Col>
                         </Row>
-                        </div>
                     </Container>
                 </div>
 
                 <div className="experience">
-                    <h1>Experience</h1>
+                    <h1>Work Experience</h1>
                     <Container>
                         <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
@@ -170,14 +240,13 @@ function Resume() {
                                 <img src={varady} alt="varady"/>
                             </Col>
                             <Col md={9}>
-                                <h4><a href="http://www.varadyconsulting.hu/" target="_blank">Várady Könyvvizsgáló
-                                    Kft.</a>
+                                <h4><a href="http://www.varadyconsulting.hu/" target="_blank">Várady Auditing Ltd.</a>
                                 </h4>
                                 <p id="subtitle">2017-2020, Office leader, bookkeeper</p>
                                 <ul>
-                                    <li>managing the cooperation between collegues, how we can share subtasks</li>
-                                    <li>communicating with customers</li>
-                                    <li>making balance sheet, submitting tax returns</li>
+                                    <li>managed cooperation between colleagues</li>
+                                    <li>communicated with customers</li>
+                                    <li>made balance sheets and submitted tax returns, etc.</li>
                                 </ul>
                             </Col>
                         </Row>
@@ -186,10 +255,10 @@ function Resume() {
                                 <img src={biokom} alt="biokom"/>
                             </Col>
                             <Col md={9}>
-                                <h4><a href="https://www.biokom.hu/" target="_blank">Biokom Nonprofit Kft.</a></h4>
+                                <h4><a href="https://www.biokom.hu/" target="_blank">Biokom Non-profit Ltd.</a></h4>
                                 <p id="subtitle">2016-2017, Assistant bookkeeper</p>
                                 <ul>
-                                    <li>working with senior bookkeeper, sharing with her subtasks</li>
+                                    <li>collaborated with a with senior bookkeeper on making balance sheets and tax returns</li>
                                 </ul>
                             </Col>
                         </Row>
@@ -200,11 +269,11 @@ function Resume() {
                                 <img src={corrman} alt="corrman"/>
                             </Col>
                             <Col md={9}>
-                                <h4>Corr. Man. Kft.</h4>
+                                <h4>Corr. Man. Ltd.</h4>
                                 <p id="subtitle">2015-2016, Bookkeeper</p>
                                 <ul>
-                                    <li>making balance sheets, submitting tax returns</li>
-                                    <li>communicating with customers</li>
+                                    <li>made balance sheets, submitted tax returns</li>
+                                    <li>communicated with customers</li>
                                 </ul>
                             </Col>
                         </Row>
@@ -213,11 +282,11 @@ function Resume() {
                                 <img src={darabanth} alt="darabanth"/>
                             </Col>
                             <Col md={9}>
-                                <h4><a href="https://www.darabanth.com/en/" target="_blank">Darabanth Kft.</a></h4>
+                                <h4><a href="https://www.darabanth.com/en/" target="_blank">Darabanth Ltd.</a></h4>
                                 <p id="subtitle">2013-2015, Office administrator</p>
                                 <ul>
-                                    <li>communicating with customers in Hungarian, German and English</li>
-                                    <li>administrating items for auctions</li>
+                                    <li>communicated with customers in Hungarian, German and English</li>
+                                    <li>administrated items for auctions</li>
                                 </ul>
                             </Col>
                         </Row>

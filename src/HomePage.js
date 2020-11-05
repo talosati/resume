@@ -1,107 +1,149 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomePage.css'
-import {Button, Card, Col, Container, Row} from "react-bootstrap";
-
-import screenshot from './static/resume_website.png';
+import {Button, Col, Container, Row} from "react-bootstrap";
+import graduate from "./static/graduatecer.jpg";
 
 function HomePage() {
     return (
         <>
-            <div className="home-header">
+            <div className="home-header onlyScreen">
                 <h1>Hello, my name is Atanas Tálos, welcome to my resume website!</h1>
                 <p>I am a junior full-stack developer, using frameworks React, Express.js and Spring.</p>
-                <p><Button href="/resume" variant="dark">See more</Button></p>
             </div>
 
-            <div className="projects">
-                <Container>
-                    <Row style={{'margin': '50px 0px'}}>
-                        <Col md={4} sm={12}>
-                            <Card>
-                                <Card.Img variant="top" src={screenshot}/>
-                                <Card.Body>
-                                    <Card.Title>Resume in React</Card.Title>
-                                    <Card.Text>
-                                        My personal page built in React.
-                                    </Card.Text>
-                                    <Button href="https://github.com/talosati/resume/" target="_blank" variant="dark">Source code</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-
-            <div className="other-skills">
+            <div className="onlyPrintAndMobile">
+                <h1 id="onlyPrint">Atanas Tálos</h1>
                 <Container>
                     <Row>
-                        <Col sm={12} md={4}>
-                            <h4>Languages and Frameworks</h4>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <ul>
-                                    <li>Bootstrap</li>
-                                    <li>Sass</li>
-                                </ul>
-                                <li>JavaScript</li>
-                                <ul>
-                                    <li>Axios</li>
-                                    <li>Express.js</li>
-                                    <li>Jest</li>
-                                    <li>Mongoose</li>
-                                    <li>ReactJS</li>
-                                    <li>Redux</li>
-                                    <li>Sequelize</li>
-                                </ul>
-                                <li>Java</li>
-                                <ul>
-                                    <li>Spring</li>
-                                    <li>Thymeleaf</li>
-                                </ul>
-                            </ul>
+                        <Col md={8}>
+                            <p>My resume website: <a href="https://atanastalos.com/"
+                                                     target="_blank">atanastalos.com</a></p>
+                            <p>Linkedin: <a href="https://www.linkedin.com/in/atanastalos/" target="_blank">Atanas
+                                Tálos</a></p>
+                            <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
+                            <p>Mobile/WhatsApp: +36309738761</p>
                         </Col>
-                        <Col sm={12} md={4}>
-                            <h4>Tools</h4>
-                            <ul>
-                                <li>AWS</li>
-                                <ul>
-                                    <li>Amplify</li>
-                                    <li>Certificate Manager</li>
-                                    <li>CloudFront</li>
-                                    <li>Route 53</li>
-                                    <li>S3</li>
-                                </ul>
-                                <li>Docker</li>
-                                <li>ESLint</li>
-                                <li>Git</li>
-                                <li>Heroku</li>
-                                <li>JIRA</li>
-                                <li>MongoDB</li>
-                                <li>MySQL</li>
-                                <li>NodeJS</li>
-                                <ul>
-                                    <li>Babel</li>
-                                    <li>npm</li>
-                                    <li>yarn</li>
-                                </ul>
-                                <li>Postman</li>
-                                <li>Prettier</li>
-                                <li>Swagger</li>
-                            </ul>
-                        </Col>
-                        <Col sm={12} md={4}>
-                            <h4>Concepts</h4>
-                            <ul>
-                                <li>MVC</li>
-                                <li>REST API</li>
-                                <li>SOLID principles</li>
-                                <li>Unit Testing, FIRST principles</li>
-                            </ul>
+                        <Col md={4}>
+                            <p>Github: <a href="https://github.com/talosati" target="_blank">talosati</a></p>
+                            <p>HackerRank: <a href="https://www.hackerrank.com/atanaz" target="_blank">atanaz</a>
+                            </p>
+                            <p>CodeWars: <a href="https://www.codewars.com/users/talosatanaz"
+                                            target="_blank">talosatanaz</a></p>
                         </Col>
                     </Row>
                 </Container>
+            </div>
+
+            <div className="about onlyPrintAndMobile">
+                <p>I am based in Berlin. </p>
+                <p>
+                    I graduated from the <a href="https://www.greenfoxacademy.com/en/home" target="_blank">Green Fox
+                    Academy</a> bootcamp this year as a full-stack developer.
+                    The
+                    technologies covered were Java (with Spring framework) and JavaScript (Express, React).
+                    During
+                    this 4 months bootcamp I have proven capable of learning new technologies quickly and
+                    independently. During the project phase of the course we worked on a project together, and
+                    learned
+                    how to
+                    work in a team led by a senior mentor. We followed Agile practices and all of our agile meetings
+                    were
+                    facilitated in English.
+                </p>
+                <p>
+                    Before the course I used HTML and CSS to design my blogs as a hobby, and I also
+                    graduated as
+                    a graphic designer to extend my knowledge about creating unique and impressive web pages.
+                    Before turning towards software engineering, I primarily worked as a certified accountant; I
+                    have a
+                    degree in accounting and finance. In this phase of my career I worked primarily with businesses,
+                    and
+                    advanced from an assistant bookeeper to being a team lead, where I also managed the cooperation
+                    between
+                    staff members and organized their tasks.
+                </p>
+                <p>
+                    In my role as a bookkeeper, I enjoyed solving problems with great precision, combining
+                    theoretical
+                    and
+                    practical
+                    knowledge and using a systematic approach. I appreciated the opportunities for life-long
+                    learning
+                    and the constant new challenges I met but I wanted a profession where I would be able to use the
+                    soft
+                    skills I had acquired in a more creative
+                    environment. So I decided to take my career in a new direction and become a software engineer.
+                </p>
+                <p> I am a transgender activist and I used my organizational skills as a co-organizer of the first
+                    Transgender Pride march in Hungary.</p>
+            </div>
+
+            <div className="onlyScreen">
+                <Container>
+                    <Row>
+                        <Col md={6}>
+                            <img src={graduate} alt="graduatingceremony"/>
+                        </Col>
+                        <Col md={6}>
+                            <p>I am based in Berlin. </p>
+                            <p>
+                                I graduated from the <a href="https://www.greenfoxacademy.com/en/home" target="_blank">Green
+                                Fox
+                                Academy</a> bootcamp this year as a full-stack developer.
+                                The
+                                technologies covered were Java (with Spring framework) and JavaScript (Express, React).
+                                During
+                                this 4 months bootcamp I have proven capable of learning new technologies quickly and
+                                independently. During the project phase of the course we worked on a project together,
+                                and
+                                learned
+                                how to
+                                work in a team led by a senior mentor. We followed Agile practices and all of our agile
+                                meetings
+                                were
+                                facilitated in English.
+                            </p>
+                            <p>
+                                Before the course I used HTML and CSS to design my blogs as a hobby, and I also
+                                graduated as
+                                a graphic designer to extend my knowledge about creating unique and impressive web
+                                pages.
+                                Before turning towards software engineering, I primarily worked as a certified
+                                accountant; I
+                                have a
+                                degree in accounting and finance. In this phase of my career I worked primarily with
+                                businesses, and
+                                advanced from an assistant bookeeper to being a team lead, where I also managed the
+                                cooperation
+                                between
+                                staff members and organized their tasks.
+                            </p>
+                            <p>
+                                In my role as a bookkeeper, I enjoyed solving problems with great precision, combining
+                                theoretical
+                                and
+                                practical
+                                knowledge and using a systematic approach. I appreciated the opportunities for life-long
+                                learning
+                                and the constant new challenges I met but I wanted a profession where I would be able to
+                                use
+                                the
+                                soft
+                                skills I had acquired in a more creative
+                                environment. So I decided to take my career in a new direction and become a software
+                                engineer.
+                            </p>
+                            <p> I am a transgender activist and I used my organizational skills as a co-organizer of the
+                                first
+                                Transgender Pride march in Hungary.</p>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
+            <div id="bottom">
+                <Button href="/resume" variant="dark">See more</Button>
             </div>
         </>
     );
