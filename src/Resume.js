@@ -234,7 +234,7 @@ function Resume() {
                 </div>
 
                 <div className="experience">
-                    <h1>Work Experience</h1>
+                    <h1>Work experience</h1>
                     <Container>
                         <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
