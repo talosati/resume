@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './HomePage.css'
+import './main.css'
 import {Button, Col, Container, Row} from "react-bootstrap";
 import graduate from "./static/graduatecer.jpg";
 
@@ -79,7 +79,7 @@ function HomePage() {
                     Transgender Pride march in Hungary.</p>
             </div>
 
-            <div className="onlyScreen">
+            <div className="onlyScreenWithGivenWidth">
                 <Container>
                     <Row>
                         <Col md={6}>

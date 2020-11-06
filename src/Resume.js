@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {ProgressBar, Container, Row, Col, Table, Button} from 'react-bootstrap';
-import './Resume.css'
 
 import profil from './static/profil.jpg';
 import greenfox from './static/logos/greenfoxacademy.png';
@@ -111,7 +110,7 @@ function Resume() {
                                     <li>Redux</li>
                                     <li>Sequelize</li>
                                 </ul>
-                                <li>Java</li>
+                                <li>Java 8</li>
                                 <ul>
                                     <li>Hibernate</li>
                                     <li>JUnit</li>

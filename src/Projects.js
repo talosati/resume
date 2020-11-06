@@ -1,6 +1,5 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Projects.css';
 import {Button, Card, Col, Container, Row, Table} from "react-bootstrap";
 import resume from "./static/resume_website.png";
 import petshelter from "./static/petshelter-website.png";
