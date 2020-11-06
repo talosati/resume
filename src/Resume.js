@@ -28,6 +28,9 @@ function Resume() {
                                 <p>I enjoy working in a team, and I find it exciting to see how something is
                                     built from individual parts and how a collaboration can result in an organic whole.
                                 I am motivated and driven by the variety of challenges ahead.</p>
+                                <div id="button2">
+                                    <Button onClick={() => window.print()} variant="dark">Print resume</Button>
+                                </div>
                             </div>
                         </Col>
                         <Col sm={6}>
@@ -332,7 +335,7 @@ function Resume() {
                     </div>
                 </Container>
             </div>
-            <div id="bottom">
+            <div id="button">
                 <Button href="#top" variant="dark">To top</Button>
             </div>
         </>

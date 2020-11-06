@@ -142,7 +142,7 @@ function HomePage() {
                 </Container>
             </div>
 
-            <div id="bottom">
+            <div id="button">
                 <Button href="/resume" variant="dark">See more</Button>
             </div>
         </>

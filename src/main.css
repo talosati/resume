@@ -19,6 +19,10 @@ body {
     text-align: justify;
 }
 
+.onlyScreenWithGivenWidth p {
+    text-align: justify;
+}
+
 .projects .container {
     padding: 0px;
 }
@@ -113,17 +117,20 @@ body {
     border-bottom: 2px solid grey;
 }
 
-#bottom {
+#button {
     padding: 20px 48%;
 }
-
 
 @media print {
     .onlyScreen {
         display: none;
     }
 
-    #bottom {
+    #button {
+        display: none;
+    }
+
+    #button2 {
         display: none;
     }
 }
