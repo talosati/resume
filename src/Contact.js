@@ -38,28 +38,26 @@ function Contact() {
                 {(resultOfSendingEmail) ? tryToSendEmail() : null}
             </div>
             <div className='w-50 mx-auto p-3 mt-2'>
-                <form className="contact-form" onSubmit={sendEmail}>
-                    <Form>
-                        <Form.Group controlId="formGroupUsername">
-                            <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" name="name"/>
-                        </Form.Group>
-                        <Form.Group controlId="formGroupEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" name='email'/>
-                        </Form.Group>
-                        <Form.Group controlId="subject">
-                            <Form.Label>Subject</Form.Label>
-                            <Form.Control type="subject" name='subject'/>
-                        </Form.Group>
-                        <Form.Group controlId="textarea">
-                            <Form.Label>Message</Form.Label>
-                            <Form.Control as="textarea" rows="10" name='message'/>
-                        </Form.Group>
-                        <Button variant="dark" type='submit'
-                                value='Send'>Send</Button>
-                    </Form>
-                </form>
+                <Form className="contact-form" onSubmit={sendEmail}>
+                    <Form.Group controlId="formGroupUsername">
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control type="text" name="name"/>
+                    </Form.Group>
+                    <Form.Group controlId="formGroupEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" name='email'/>
+                    </Form.Group>
+                    <Form.Group controlId="subject">
+                        <Form.Label>Subject</Form.Label>
+                        <Form.Control type="subject" name='subject'/>
+                    </Form.Group>
+                    <Form.Group controlId="textarea">
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control as="textarea" rows="10" name='message'/>
+                    </Form.Group>
+                    <Button variant="dark" type='submit'
+                            value='Send'>Send</Button>
+                </Form>
             </div>
         </>
     );
