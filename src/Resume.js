@@ -25,7 +25,7 @@ function Resume() {
                         <Col sm={6}>
                             <div id="introduction">
                                 <h3>Atanas Tálos</h3>
-                                <p>I enjoy working in a team, and I find it exciting to see how something is
+                                <p>I enjoy working in a team. I find it exciting to see how something is
                                     built from individual parts and how a collaboration can result in an organic whole.
                                 I am motivated and driven by the variety of challenges ahead.</p>
                                 <div id="button2">
@@ -132,6 +132,7 @@ function Resume() {
                                     <li>CloudFront</li>
                                     <li>Route 53</li>
                                     <li>S3</li>
+                                    <li>WorkMail</li>
                                 </ul>
                                 <li>Docker</li>
                                 <li>ESLint</li>

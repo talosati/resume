@@ -43,7 +43,7 @@ function HomePage() {
                     The
                     technologies covered were Java (with Spring framework) and JavaScript (Express, React).
                     During
-                    this 4 months bootcamp I have proven capable of learning new technologies quickly and
+                    this five-month, full-time bootcamp I have proven capable of learning new technologies quickly and
                     independently. During the project phase of the course we worked on a project together, and
                     learned
                     how to
@@ -59,7 +59,7 @@ function HomePage() {
                     have a
                     degree in accounting and finance. In this phase of my career I worked primarily with businesses,
                     and
-                    advanced from an assistant bookeeper to being a team lead, where I also managed the cooperation
+                    advanced from an assistant bookkeeper to being a team lead, where I also managed the cooperation
                     between
                     staff members and organized their tasks.
                 </p>
