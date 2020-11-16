@@ -1,8 +1,10 @@
-import React from "react";
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Button, Card, Col, Container, Row, Table} from "react-bootstrap";
-import resume from "./static/resume_website.png";
-import petshelter from "./static/petshelter-website.png";
+import {Button, Card, Col, Container, Row} from 'react-bootstrap';
+
+import resume from './static/resume_website.png';
+import petshelter from './static/petshelter-website.png';
+import lfd from './static/lfd-website.png';
 
 function Projects() {
     return (
@@ -22,6 +24,7 @@ function Projects() {
                                 </Card.Body>
                             </Card>
                         </Col>
+
                         <Col md={4} sm={12}>
                             <Card>
                                 <Card.Img variant="top" src={petshelter}/>
@@ -31,6 +34,19 @@ function Projects() {
                                         Java project with Thymeleaf, deployed to Heroku and connected to SQL database called ClearDB.
                                     </Card.Text>
                                     <Button href="https://github.com/talosati/petshelter" target="_blank" variant="dark">Source code</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+
+                        <Col md={4} sm={12}>
+                            <Card>
+                                <Card.Img variant="top" src={lfd}/>
+                                <Card.Body>
+                                    <Card.Title><a href="https://www.lightningfastdelivery.net/" target="_blank">Lightning Fast Delivery</a></Card.Title>
+                                    <Card.Text>
+                                        Website for Lightning Fast Delivery workshop, event tickets handled with Ti.To. Created in React.
+                                    </Card.Text>
+                                    <Button href="https://github.com/atanastalos/lightning-fast-delivery" target="_blank" variant="dark">Source code</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
