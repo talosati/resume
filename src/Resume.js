@@ -134,6 +134,7 @@ function Resume() {
                                     <li>S3</li>
                                     <li>WorkMail</li>
                                 </ul>
+                                <li>Contentful</li>
                                 <li>Docker</li>
                                 <li>ESLint</li>
                                 <li>Git</li>
