@@ -14,13 +14,13 @@ function Projects() {
                     <Row style={{'margin': '50px 0px'}}>
                         <Col md={4} sm={12}>
                             <Card>
-                                <Card.Img variant="top" src={resume}/>
+                                <Card.Img variant="top" src={lfd}/>
                                 <Card.Body>
-                                    <Card.Title><a href="https://atanastalos.com/" target="_blank">Resume in React</a></Card.Title>
+                                    <Card.Title><a href="https://www.lightningfastdelivery.net/" target="_blank">Lightning Fast Delivery</a></Card.Title>
                                     <Card.Text>
-                                        My personal page built in React, deployed to AWS S3.
+                                        Website for Lightning Fast Delivery workshop, event tickets handled with Ti.To. Created in React.
                                     </Card.Text>
-                                    <Button href="https://github.com/talosati/resume/" target="_blank" variant="dark">Source code</Button>
+                                    <Button href="https://github.com/atanastalos/lightning-fast-delivery" target="_blank" variant="dark">Source code</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -40,13 +40,13 @@ function Projects() {
 
                         <Col md={4} sm={12}>
                             <Card>
-                                <Card.Img variant="top" src={lfd}/>
+                                <Card.Img variant="top" src={resume}/>
                                 <Card.Body>
-                                    <Card.Title><a href="https://www.lightningfastdelivery.net/" target="_blank">Lightning Fast Delivery</a></Card.Title>
+                                    <Card.Title><a href="https://atanastalos.com/" target="_blank">Resume in React</a></Card.Title>
                                     <Card.Text>
-                                        Website for Lightning Fast Delivery workshop, event tickets handled with Ti.To. Created in React.
+                                        My personal page built in React, deployed to AWS S3.
                                     </Card.Text>
-                                    <Button href="https://github.com/atanastalos/lightning-fast-delivery" target="_blank" variant="dark">Source code</Button>
+                                    <Button href="https://github.com/talosati/resume/" target="_blank" variant="dark">Source code</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
