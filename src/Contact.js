@@ -38,7 +38,7 @@ function Contact() {
             <div className="alert">
                 {(resultOfSendingEmail) ? tryToSendEmail() : null}
             </div>
-            <div className='w-50 mx-auto p-3 mt-2'>
+            <div className='w-80 mx-auto p-3 mt-2'>
                 <Form className="contact-form" method="post" onSubmit={sendEmail}>
                     <Form.Group controlId="formGroupUsername">
                         <Form.Label>Name</Form.Label>
