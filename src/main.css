@@ -121,6 +121,10 @@ body {
     padding: 20px 48%;
 }
 
+.g-recaptcha {
+    padding-bottom: 20px;
+}
+
 @media print {
     .onlyScreen {
         display: none;

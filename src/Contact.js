@@ -15,7 +15,8 @@ function Contact() {
         setDesign('info');
         setId('info-alert');
 
-        emailjs.sendForm('gmail', 'template_lq7wgyd', e.target, 'user_arXYp4I4EW74lEp92cYT1')
+        emailjs.sendForm('gmail', 'template_lq7wgyd', e.target,
+            'user_arXYp4I4EW74lEp92cYT1')
             .then((result) => {
                 setResultOfSendingEmail('Thank you for your email!');
                 setDesign('success');
@@ -38,7 +39,7 @@ function Contact() {
                 {(resultOfSendingEmail) ? tryToSendEmail() : null}
             </div>
             <div className='w-50 mx-auto p-3 mt-2'>
-                <Form className="contact-form" onSubmit={sendEmail}>
+                <Form className="contact-form" method="post" onSubmit={sendEmail}>
                     <Form.Group controlId="formGroupUsername">
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text" name="name"/>
@@ -55,6 +56,7 @@ function Contact() {
                         <Form.Label>Message</Form.Label>
                         <Form.Control as="textarea" rows="10" name='message'/>
                     </Form.Group>
+                    <div className="g-recaptcha" data-sitekey="6LfGh-4ZAAAAAH0seNBD1UIjEaHnSKQiVUOPCGRd"></div>
                     <Button variant="dark" type='submit'
                             value='Send'>Send</Button>
                 </Form>

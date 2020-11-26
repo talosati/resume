@@ -148,6 +148,7 @@ function Resume() {
                                     <li>npm</li>
                                     <li>yarn</li>
                                 </ul>
+                                <li>Open Graph protocol</li>
                                 <li>Postman</li>
                                 <li>Prettier</li>
                                 <li>Swagger</li>
