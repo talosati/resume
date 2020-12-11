@@ -19,7 +19,7 @@ function Projects() {
                                 <Card.Body>
                                     <Card.Title><a href="https://www.lightningfastdelivery.net/" target="_blank">Lightning Fast Delivery</a></Card.Title>
                                     <Card.Text>
-                                        Website for Lightning Fast Delivery workshop, event tickets handled with Ti.To. Created in React.
+                                        Website for Lightning Fast Delivery workshop, content handled with Contentful. Created in React.
                                     </Card.Text>
                                     <Button href="https://github.com/atanastalos/lightning-fast-delivery" target="_blank" variant="dark">Source code</Button>
                                 </Card.Body>
