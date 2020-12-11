@@ -2,9 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Card, Col, Container, Row} from 'react-bootstrap';
 
-import resume from './static/resume_website.png';
-import petshelter from './static/petshelter-website.png';
 import lfd from './static/lfd-website.png';
+import signUp from './static/signUp.png';
+import petshelter from './static/petshelter-website.png';
+import resume from './static/resume_website.png';
 
 function Projects() {
     return (
@@ -21,6 +22,21 @@ function Projects() {
                                         Website for Lightning Fast Delivery workshop, event tickets handled with Ti.To. Created in React.
                                     </Card.Text>
                                     <Button href="https://github.com/atanastalos/lightning-fast-delivery" target="_blank" variant="dark">Source code</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col md={4} sm={12}>
+                            <Card>
+                                <Card.Img variant="top" src={signUp}/>
+                                <Card.Body>
+                                    <Card.Title><a href="https://main.d2xuceryh597ov.amplifyapp.com/" target="_blank">Sign up</a></Card.Title>
+                                    <Card.Text>
+                                        React project with Styled Components and Redux. Deployed with AWS Amplify.
+                                    </Card.Text>
+                                    <Button href="https://github.com/atanastalos/styledComponentsWithRedux" target="_blank" variant="dark">Source code</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
