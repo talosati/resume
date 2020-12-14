@@ -50,7 +50,7 @@ function Resume() {
                     </tr>
                     <tr>
                         <td><a href="/contact">talos.atanaz@gmail.com</a></td>
-                        <td>+36309738761</td>
+                        <td>+491630115600</td>
                         <td><a href="https://www.linkedin.com/in/atanastalos/" target="_blank">Atanas Tálos</a></td>
                         <td><a href="https://github.com/talosati" target="_blank">talosati</a></td>
                         <td><a href="https://www.hackerrank.com/atanaz" target="_blank">atanaz</a></td>
@@ -68,7 +68,7 @@ function Resume() {
                             <p>Linkedin: <a href="https://www.linkedin.com/in/atanastalos/" target="_blank">Atanas
                                 Tálos</a></p>
                             <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
-                            <p>Mobile/WhatsApp: +36309738761</p>
+                            <p>Mobile/WhatsApp: +491630115600</p>
                         </Col>
                         <Col md={6} id="rightColumn">
                             <p>Github: <a href="https://github.com/talosati" target="_blank">talosati</a></p>

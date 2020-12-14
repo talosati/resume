@@ -22,7 +22,7 @@ function HomePage() {
                             <p>Linkedin: <a href="https://www.linkedin.com/in/atanastalos/" target="_blank">Atanas
                                 Tálos</a></p>
                             <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
-                            <p>Mobile/WhatsApp: +36309738761</p>
+                            <p>Mobile/WhatsApp: +491630115600</p>
                         </Col>
                         <Col md={4}>
                             <p>Github: <a href="https://github.com/talosati" target="_blank">talosati</a></p>
