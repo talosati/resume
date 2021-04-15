@@ -9,7 +9,7 @@ function HomePage() {
         <>
             <div className="home-header onlyScreen">
                 <h1>Hello, my name is Atanas Tálos, welcome to my resume website!</h1>
-                <p>I am a junior full-stack developer, using frameworks React, Express.js and Spring.</p>
+                <p>I am a junior full-stack developer, using JavaScript, TypeScript and Java.</p>
             </div>
 
             <div className="onlyPrintAndMobile">
@@ -22,7 +22,7 @@ function HomePage() {
                             <p>Linkedin: <a href="https://www.linkedin.com/in/atanastalos/" target="_blank">Atanas
                                 Tálos</a></p>
                             <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
-                            <p>Mobile/WhatsApp: +491630115600</p>
+                            <p>Mobile/WhatsApp: +36309738761</p>
                         </Col>
                         <Col md={4}>
                             <p>Github: <a href="https://github.com/talosati" target="_blank">talosati</a></p>

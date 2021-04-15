@@ -15,6 +15,8 @@ import darabanth from './static/logos/darabanth.png';
 import mensa from './static/logos/mensa_logo.png';
 import tura from './static/logos/mtsz.jpg';
 import feather from './static/logos/feather.jpg';
+import gurgely from './static/logos/gurgely.png';
+import novin from './static/logos/novin.png';
 
 function Resume() {
     return (
@@ -27,7 +29,7 @@ function Resume() {
                                 <h3>Atanas Tálos</h3>
                                 <p>I enjoy working in a team. I find it exciting to see how something is
                                     built from individual parts and how a collaboration can result in an organic whole.
-                                I am motivated and driven by the variety of challenges ahead.</p>
+                                    I am motivated and driven by the variety of challenges ahead.</p>
                                 <div id="button2">
                                     <Button onClick={() => window.print()} variant="dark">Print resume</Button>
                                 </div>
@@ -50,7 +52,7 @@ function Resume() {
                     </tr>
                     <tr>
                         <td><a href="/contact">talos.atanaz@gmail.com</a></td>
-                        <td>+491630115600</td>
+                        <td>+36309738761</td>
                         <td><a href="https://www.linkedin.com/in/atanastalos/" target="_blank">Atanas Tálos</a></td>
                         <td><a href="https://github.com/talosati" target="_blank">talosati</a></td>
                         <td><a href="https://www.hackerrank.com/atanaz" target="_blank">atanaz</a></td>
@@ -68,7 +70,7 @@ function Resume() {
                             <p>Linkedin: <a href="https://www.linkedin.com/in/atanastalos/" target="_blank">Atanas
                                 Tálos</a></p>
                             <p>Email: <a href="mailto:talos.atanaz@gmail.com">talos.atanaz@gmail.com</a></p>
-                            <p>Mobile/WhatsApp: +491630115600</p>
+                            <p>Mobile/WhatsApp: +36309738761</p>
                         </Col>
                         <Col md={6} id="rightColumn">
                             <p>Github: <a href="https://github.com/talosati" target="_blank">talosati</a></p>
@@ -102,23 +104,39 @@ function Resume() {
                                 <ul>
                                     <li>Bootstrap</li>
                                     <li>Sass</li>
+                                    <li>Styled components</li>
                                 </ul>
                                 <li>JavaScript ES6</li>
                                 <ul>
                                     <li>Axios</li>
                                     <li>Express.js</li>
+                                    <li>Gradle Build Tool</li>
                                     <li>Jest</li>
                                     <li>Mongoose</li>
+                                    <li>NodeJS</li>
+                                    <ul>
+                                        <li>Babel</li>
+                                        <li>npm</li>
+                                        <li>yarn</li>
+                                    </ul>
                                     <li>ReactJS</li>
                                     <li>Redux</li>
                                     <li>Sequelize</li>
                                 </ul>
                                 <li>Java 8</li>
                                 <ul>
+                                    <li>Apache Maven</li>
                                     <li>Hibernate</li>
                                     <li>JUnit</li>
+                                    <li>Log4j2</li>
+                                    <li>Project Lombok</li>
                                     <li>Spring</li>
+                                    <li>Spring Security</li>
                                     <li>Thymeleaf</li>
+                                </ul>
+                                <li>TypeScript</li>
+                                <ul>
+                                    <li>AngularJS</li>
                                 </ul>
                             </ul>
                         </Col>
@@ -140,14 +158,10 @@ function Resume() {
                                 <li>Git</li>
                                 <li>Heroku</li>
                                 <li>JIRA</li>
+                                <li>Liquibase</li>
                                 <li>MongoDB</li>
                                 <li>MySQL</li>
-                                <li>NodeJS</li>
-                                <ul>
-                                    <li>Babel</li>
-                                    <li>npm</li>
-                                    <li>yarn</li>
-                                </ul>
+                                <li>PostgreSQL</li>
                                 <li>Open Graph protocol</li>
                                 <li>Postman</li>
                                 <li>Prettier</li>
@@ -157,6 +171,7 @@ function Resume() {
                         <Col sm={12} md={4}>
                             <h4>Concepts</h4>
                             <ul>
+                                <li>Agile Software Development</li>
                                 <li>Clean code</li>
                                 <li>MVC</li>
                                 <li>REST API</li>
@@ -168,8 +183,8 @@ function Resume() {
                 </Container>
             </div>
 
-            <div className="cards">
-                <div className="education avoidBreak">
+            <div className="cards avoidBreak">
+                <div className="education">
                     <h1>Education</h1>
                     <Container>
                         <Row style={{'margin-bottom': '20px'}}>
@@ -236,16 +251,53 @@ function Resume() {
                     </Container>
                 </div>
 
-                <div className="experience">
+                <div className="experience avoidBreak">
                     <h1>Work experience</h1>
                     <Container>
-                        <div className="avoidBreak">
+                        <Row style={{'margin-bottom': '20px'}}>
+                            <Col md={3}>
+                                <img src={novin} alt="novin"/>
+                            </Col>
+                            <Col md={9}>
+                                <h4><a href="https://novin.hu/" target="_blank">Novin Bt.</a>
+                                </h4>
+                                <p id="subtitle">2021-, Junior software developer</p>
+                                <ul>
+                                    <li>Spring, AngularJS, Liquibase, PostgreSQL</li>
+                                    <li>contributing to a GitLab project</li>
+                                    <li>Agile Software Development:
+                                        <ul>
+                                            <li>Scrum</li>
+                                            <li>Stand-up Meetings</li>
+                                            <li>Sprint Planning Meeting</li>
+                                            <li>Sprint Retrospective Meeting</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </Col>
+                        </Row>
+                        <Row style={{'margin-bottom': '20px'}}>
+                            <Col md={3}>
+                                <img src={gurgely} alt="gurgely"/>
+                            </Col>
+                            <Col md={9}>
+                                <h4><a href="https://gurgely.com/" target="_blank">Gurgely Design</a>
+                                </h4>
+                                <p id="subtitle">2020-2021, Junior software developer</p>
+                                <ul>
+                                    <li>Node.js, React, Sequelize</li>
+                                    <li>contributing to a GitHub project</li>
+                                    <li>managing tasks using ClickUp</li>
+                                </ul>
+                            </Col>
+                        </Row>
                         <Row style={{'margin-bottom': '20px'}}>
                             <Col md={3}>
                                 <img src={varady} alt="varady"/>
                             </Col>
                             <Col md={9}>
-                                <h4><a href="http://www.varadyconsulting.hu/" target="_blank">Várady Auditing Ltd.</a>
+                                <h4><a href="http://www.varadyconsulting.hu/" target="_blank">Várady Auditing
+                                    Ltd.</a>
                                 </h4>
                                 <p id="subtitle">2017-2020, Office leader, bookkeeper</p>
                                 <ul>
@@ -263,12 +315,12 @@ function Resume() {
                                 <h4><a href="https://www.biokom.hu/" target="_blank">Biokom Non-profit Ltd.</a></h4>
                                 <p id="subtitle">2016-2017, Assistant bookkeeper</p>
                                 <ul>
-                                    <li>collaborated with a with senior bookkeeper on making balance sheets and tax returns</li>
+                                    <li>collaborated with a with senior bookkeeper on making balance sheets and tax
+                                        returns
+                                    </li>
                                 </ul>
                             </Col>
                         </Row>
-                    </div>
-                    <div className="avoidBreak">
                         <Row style={{'margin-bottom': '20px'}}>
                             <Col md={3}>
                                 <img src={corrman} alt="corrman"/>
@@ -295,15 +347,13 @@ function Resume() {
                                 </ul>
                             </Col>
                         </Row>
-                    </div>
                     </Container>
                 </div>
             </div>
 
-            <div className="cards hobbies">
+            <div className="cards hobbies avoidBreak">
                 <h1>Hobbies</h1>
                 <Container>
-                    <div className="avoidBreak">
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
                             <img src={mensa} alt="mensa"/>
@@ -320,12 +370,11 @@ function Resume() {
                             <img src={tura} alt="mtsz"/>
                         </Col>
                         <Col md={9}>
-                            <h4><a href="http://www.mtsz.org/" target="_blank">Hungarian Hikers' Association</a></h4>
+                            <h4><a href="http://www.mtsz.org/" target="_blank">Hungarian Hikers' Association</a>
+                            </h4>
                             <p id="subtitle">2016, Map reading & Navigation Course</p>
                         </Col>
                     </Row>
-                    </div>
-                    <div className="avoidBreak">
                     <Row style={{'margin-bottom': '20px'}}>
                         <Col md={3}>
                             <img src={feather} alt="quill-pen"/>
@@ -335,7 +384,6 @@ function Resume() {
                             <p>Writing poems and short stories.</p>
                         </Col>
                     </Row>
-                    </div>
                 </Container>
             </div>
             <div id="button">
