@@ -110,7 +110,6 @@ function Resume() {
                                 <ul>
                                     <li>Axios</li>
                                     <li>Express.js</li>
-                                    <li>Gradle Build Tool</li>
                                     <li>Jest</li>
                                     <li>Mongoose</li>
                                     <li>NodeJS</li>
@@ -127,6 +126,7 @@ function Resume() {
                                 <ul>
                                     <li>Apache Maven</li>
                                     <li>Hibernate</li>
+                                    <li>Gradle Build Tool</li>
                                     <li>JUnit</li>
                                     <li>Log4j2</li>
                                     <li>Project Lombok</li>
@@ -265,14 +265,7 @@ function Resume() {
                                 <ul>
                                     <li>Spring, AngularJS, Liquibase, PostgreSQL</li>
                                     <li>contributing to a GitLab project</li>
-                                    <li>Agile Software Development:
-                                        <ul>
-                                            <li>Scrum</li>
-                                            <li>Stand-up Meetings</li>
-                                            <li>Sprint Planning Meeting</li>
-                                            <li>Sprint Retrospective Meeting</li>
-                                        </ul>
-                                    </li>
+                                    <li>Agile Software Development:</li>
                                 </ul>
                             </Col>
                         </Row>
