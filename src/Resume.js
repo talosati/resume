@@ -103,6 +103,7 @@ function Resume() {
                                 <li>CSS</li>
                                 <ul>
                                     <li>Bootstrap</li>
+                                    <li>Material</li>
                                     <li>Sass</li>
                                     <li>Styled components</li>
                                 </ul>
@@ -134,7 +135,7 @@ function Resume() {
                                     <li>Spring Security</li>
                                     <li>Thymeleaf</li>
                                 </ul>
-                                <li>TypeScript</li>
+                                <li>TypeScript 3</li>
                                 <ul>
                                     <li>AngularJS</li>
                                 </ul>
