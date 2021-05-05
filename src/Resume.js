@@ -266,7 +266,7 @@ function Resume() {
                                 <ul>
                                     <li>Spring, AngularJS, Liquibase, PostgreSQL</li>
                                     <li>contributing to a GitLab project</li>
-                                    <li>Agile Software Development:</li>
+                                    <li>Agile Software Development</li>
                                 </ul>
                             </Col>
                         </Row>
