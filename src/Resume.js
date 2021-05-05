@@ -19,6 +19,11 @@ import gurgely from './static/logos/gurgely.png';
 import novin from './static/logos/novin.png';
 
 function Resume() {
+
+    function topFunction() {
+        window.scrollTo(0, 0);
+    }
+
     return (
         <>
             <div className="experience-header" id="top">
@@ -381,7 +386,7 @@ function Resume() {
                 </Container>
             </div>
             <div id="button">
-                <Button href="#top" variant="dark">To top</Button>
+                <Button onclick={topFunction()} href="#top" variant="dark">To top</Button>
             </div>
         </>
     );
