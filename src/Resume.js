@@ -142,7 +142,7 @@ function Resume() {
                                 </ul>
                                 <li>TypeScript 3</li>
                                 <ul>
-                                    <li>AngularJS</li>
+                                    <li>Angular</li>
                                 </ul>
                             </ul>
                         </Col>
