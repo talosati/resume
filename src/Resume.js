@@ -269,7 +269,7 @@ function Resume() {
                                 </h4>
                                 <p id="subtitle">2021-, Junior software developer</p>
                                 <ul>
-                                    <li>Spring, AngularJS, Liquibase, PostgreSQL</li>
+                                    <li>Spring, Angular, Liquibase, PostgreSQL</li>
                                     <li>contributing to a GitLab project</li>
                                     <li>Agile Software Development</li>
                                 </ul>
